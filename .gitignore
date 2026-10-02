@@ -1,0 +1,10 @@
+# Python cache and local environments
+__pycache__/
+*.pyc
+.venv/
+
+# Data are not distributed with this repository (see README.md)
+*.XPT
+*.xpt
+*.parquet
+data/raw/
