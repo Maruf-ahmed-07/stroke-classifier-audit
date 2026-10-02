@@ -24,8 +24,8 @@ The model card is `cmpb_paper/release/MODEL_CARD.md`.
    It is used only as the object of the audit.
 3. `python "seprate experiment/scripts/run_separate_brfss_experiment.py"`: builds the analytic files.
 4. Then run, in order:
-   - `cmpb_paper/analysis/rebuild_clean_data.py`: corrected missing-value codes
    - `cmpb_paper/analysis/extract_survey_weights.py`
+   - `cmpb_paper/analysis/rebuild_clean_data.py`: corrected missing-value codes
    - `cmpb_paper/analysis/run_paper_analysis.py`
    - `cmpb_paper/analysis/run_v2_analyses.py`
    - `cmpb_paper/analysis/run_simple_baseline.py`
@@ -36,6 +36,7 @@ The model card is `cmpb_paper/release/MODEL_CARD.md`.
    - `cmpb_paper/analysis/run_subgroup_and_residual.py` and `run_lr_onehot_check.py`
    - `cmpb_paper/analysis/run_design_ci.py`, `cmpb_paper/analysis/run_retune.py` (about 1-2 hours) and
      `cmpb_paper/robustness_experiments/run_identity_generalisation_ext.py`
+   - `cmpb_paper/analysis/published_studies_check.py` (values extracted from the published studies)
    - `cmpb_paper/analysis/make_figures.py`, `make_supplement_tables.py`, `make_supplement_tables_v2.py`
 
 The XGBoost hyperparameters are read from

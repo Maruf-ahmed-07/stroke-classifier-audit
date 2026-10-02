@@ -129,34 +129,7 @@ for key, name, color in (("xgb_pre", "Figure_5", C_PRE), ("xgb_full", "Figure_S1
     ax.grid(axis="y", visible=False); ax.set_axisbelow(True)
     save(fig, name)
 
-# Figure S2: subgroup forest plot (run_v2_analyses.py)
-sg = pd.read_csv(A / "v2_subgroups.csv")
-sg = sg[(sg.group != "Missing") & (sg.cases >= 20)]
-rows, ylab, y = [], [], 0
-for dim in ["All", "Sex", "Age", "Race and ethnicity", "Household income", "Education"]:
-    g = sg[sg.dimension == dim]
-    if dim != "All":
-        ylab.append((y, dim, True)); y += 1
-    for _, r in g.iterrows():
-        rows.append((y, r)); ylab.append((y, r.group if dim != "All" else "All respondents", False)); y += 1
-fig, ax = plt.subplots(figsize=(5.4, 0.22 * y + 0.8))
-overall = sg[sg.dimension == "All"].roc_auc.iloc[0]
-ax.axvline(overall, color=GRID, lw=3, zorder=0)
-for yy, r in rows:
-    ax.errorbar(r.roc_auc, yy, xerr=[[r.roc_auc - r.roc_auc_lo], [r.roc_auc_hi - r.roc_auc]], color=C_PRE,
-                marker="s", ms=3.5, lw=1.1, capsize=0)
-    ax.text(1.005, yy, f"{int(r.cases):,} / {int(r.n):,}", transform=ax.get_yaxis_transform(), va="center",
-            fontsize=7, color=INK2)
-ax.set_yticks([t for t, _, _ in ylab], [l for _, l, _ in ylab], fontsize=7.5)
-for lab in ax.get_yticklabels():
-    if any(lab.get_text() == l and h for _, l, h in ylab):
-        lab.set_fontweight("bold")
-ax.invert_yaxis(); ax.grid(axis="y", visible=False)
-ax.set(xlabel="ROC-AUC (95% CI)", xlim=(0.55, 0.95))
-ax.text(1.005, -0.9, "cases / n", transform=ax.get_yaxis_transform(), fontsize=7, color=INK2)
-save(fig, "Figure_S2")
-
-# Figure S3: generalisation of the synthetic-share check (run_identity_generalisation.py)
+# Figure S2: generalisation of the synthetic-share check (run_identity_generalisation.py)
 gr = pd.read_csv(R / "identity_generalisation.csv")
 fig, ax = plt.subplots(figsize=(4.6, 4.2))
 ax.plot([0.45, 1.0], [0.45, 1.0], color=INK2, lw=0.8, ls=":", label="Reported = $s$")
@@ -167,6 +140,6 @@ for (name, c, mk) in (("SMOTE", C_PRE, "o"), ("Borderline-SMOTE", C_LR, "s"), ("
 ax.set(xlim=(0.45, 1.01), ylim=(0.45, 1.01), xlabel="Synthetic share of positives, $s$",
        ylabel="Reported sensitivity (own test split)")
 ax.legend(loc="upper left", fontsize=7.5)
-save(fig, "Figure_S3")
+save(fig, "Figure_S2")
 
 print("figures written to", FIG)

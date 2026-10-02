@@ -117,6 +117,9 @@ out.append(r"""\begin{table}[h]\centering\scriptsize\setlength{\tabcolsep}{3pt}
 Pipeline & Kind & Prev. & Accuracy & Sens. & Spec. & PPV & F$_1$ & ROC-AUC & PR-AUC & Brier \\
 """ + "\n".join(blocks) + "\n\\bottomrule\\end{tabular}\\end{table}\n")
 
+# Tables S3 (all estimates) and S4 (per-split post-event results) were removed from the supplement in
+# version 18; their data remain in analysis/outputs and robustness_experiments/outputs.
+out = [b for b in out if "\\label{tab:s3}" not in b and "\\label{tab:s4}" not in b]
 DST.write_text("\n".join(out), encoding="utf-8")
 print("wrote", DST)
 

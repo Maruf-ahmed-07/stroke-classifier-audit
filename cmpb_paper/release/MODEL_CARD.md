@@ -1,17 +1,13 @@
 # Model card: pre-event stroke-status model (BRFSS 2023)
 
-Follows Mitchell et al. (2019), "Model cards for model reporting". Numbers come from `analysis/outputs/`.
+This card follows the model-card format of Mitchell et al. (2019). All numbers come from `cmpb_paper/analysis/outputs/`.
 
 ## Model details
-- **Model.** XGBoost gradient-boosted trees (binary logistic), followed by isotonic probability calibration.
-- **Inputs.** 37 self-reported survey items: the "pre-event" set, which excludes disability, health-status, treatment and healthcare-contact items that can follow a stroke.
-- **Output.** A calibrated probability that the respondent reports a previous physician-diagnosed stroke, plus flags at three operating points.
-- **Developers.** MD Maruf Ahmed, MD Aminur Rahman, MD Junaid Ahmed Zama, Farhin Rahman, Najifa Tahsin, Jannatun Noor (BRAC University).
-- **Paper.** Computer Methods and Programs in Biomedicine (submitted).
-- **Code and model.** https://github.com/Maruf-ahmed-07/stroke-classifier-audit (folder `cmpb_paper/`).
-- **Licence.** As in the code repository.
+The model is an XGBoost classifier (gradient-boosted trees, binary logistic objective) followed by isotonic calibration. Its inputs are 37 self-reported BRFSS survey items, the "pre-event" set, which leaves out disability, health-status, treatment and healthcare-contact items because these can change after a stroke. It outputs a calibrated probability that a respondent reports a previous physician-diagnosed stroke, and flags at three operating points.
 
-## Files (`model/`)
+Developed by MD Maruf Ahmed, MD Aminur Rahman, MD Junaid Ahmed Zama, Farhin Rahman, Najifa Tahsin and Jannatun Noor (BRAC University), for a paper submitted to Computer Methods and Programs in Biomedicine. Code and model: https://github.com/Maruf-ahmed-07/stroke-classifier-audit (folder `cmpb_paper/`), under the repository's licence.
+
+## Files in `model/`
 
 | File | Content |
 |---|---|
@@ -23,38 +19,23 @@ Follows Mitchell et al. (2019), "Model cards for model reporting". Numbers come 
 | `check_inputs.csv`, `check_predictions.csv` | 2,000 test rows and the paper pipeline's predictions for them; `python predict.py --check` must reproduce them |
 
 ## Intended use
-- **Intended.** Research on questionnaire-based risk flagging and screening prioritisation in population survey data, and as a reference implementation for leakage-controlled evaluation.
-- **Task.** Detection of *prevalent*, self-reported stroke. The model does not predict incident stroke.
-- **Not intended.** Diagnosis, individual clinical decisions, or triage in health-care settings. The model has not been evaluated in clinical populations.
+The model is meant for research on questionnaire-based risk flagging and screening prioritisation in population survey data, and as a reference implementation of leakage-controlled evaluation. It detects prevalent, self-reported stroke; it does not predict incident stroke. It is not meant for diagnosis, individual clinical decisions or triage, and it has not been evaluated in clinical populations.
 
 ## Training and evaluation data
-- **Training data.** BRFSS 2023 public-use file, restricted to respondents who answered the stroke question (n = 431,849; 4.25% report stroke). The data were split into training (60%), calibration (10%), threshold-selection (10%) and test (20%) sets with seed 42.
-- **Evaluation data.**
-  - The untouched 2023 test set.
-  - BRFSS 2024: a 35-predictor version, because two items are absent from 2024.
-  - NHIS 2012 and 2014–2018: a harmonised 18-predictor version, evaluated for prevalent stroke and for cerebrovascular death.
+Training used the BRFSS 2023 public-use file, restricted to respondents who answered the stroke question (n = 431,849; 4.25% report stroke), split with seed 42 into training (60%), calibration (10%), threshold-selection (10%) and test (20%) sets. The model was evaluated on the untouched 2023 test set; a 35-predictor version on BRFSS 2024, because two items are missing from the 2024 core; and a harmonised 18-predictor version in NHIS 2012 and 2014–2018, for prevalent stroke and for cerebrovascular death.
 
-## Performance (2023 test set, primary threshold)
-See the paper's Table 2 and `analysis/outputs/table2_performance.csv`:
+## Performance
+On the 2023 test set (paper, Table 2; `table2_performance.csv`) the ROC-AUC was 0.811 (95% CI 0.805–0.817) and the integrated calibration index 0.003. At the primary threshold, sensitivity was 0.610, specificity 0.820 and PPV 0.131, about 6.6 false positives per detected case.
 
-- ROC-AUC 0.811 (95% CI 0.805–0.817)
-- sensitivity 0.610, specificity 0.820, PPV 0.131
-- about 6.6 false positives per detected case
-- calibration ICI 0.003
+The frozen 35-predictor version reached ROC-AUC 0.805 on BRFSS 2024 (calibration slope 0.96). In NHIS the harmonised version reached 0.838 for prevalent stroke (observed/expected 0.99). For cerebrovascular death it reached 0.845, below age alone (0.883), so the model should not be used as a prognostic tool.
 
-Other evaluations:
-- **BRFSS 2024** (frozen 35-predictor version): ROC-AUC 0.805, calibration slope 0.96.
-- **NHIS 2012–2018** (frozen harmonised 18-predictor version):
-  - prevalent stroke: ROC-AUC 0.838, observed/expected 0.99;
-  - cerebrovascular death: ROC-AUC 0.845, which is **below age alone (0.883)**. Do not use the model as a prognostic tool.
-
-## Ethical considerations and caveats
-- **Outcome.** The label is self-reported. Against medical records, self-reported stroke has high specificity but moderate PPV, and transient ischaemic attacks may be reported as strokes.
-- **Survivor bias.** BRFSS excludes people who died or live in institutions, so the most severe strokes are under-represented.
-- **Age.** One threshold behaves differently by age: sensitivity is low in adults under 45, and specificity is low at age 80 and over (see the supplement's subgroup table). Consider age-specific thresholds or presenting the risk without a threshold.
-- **Residual post-event information.** Hypertension or diabetes diagnosed after a stroke can remain among the predictors.
-- **Input precision.** Pass values at full precision. Rounded inputs, for example drinking days per month = 30/7, can fall on the other side of a tree split.
-- **Missing inputs.** Missing values are imputed with training-set statistics. Rows with many missing items get predictions close to those of an average respondent, and should be interpreted with care.
+## Caveats
+- The label is self-reported. Against medical records, self-reported stroke has high specificity but moderate PPV, and transient ischaemic attacks may be reported as strokes.
+- BRFSS excludes people who died or live in institutions, so the most severe strokes are under-represented.
+- A single threshold behaves differently by age: sensitivity is low under 45 and specificity is low at 80 and over (supplement, Table S6). Age-specific thresholds, or reporting the risk without a threshold, may suit some uses better.
+- Hypertension or diabetes diagnosed after a stroke can remain among the predictors.
+- Pass inputs at full precision; rounded values (for example drinking days per month) can fall on the other side of a tree split.
+- Missing values are imputed with training-set statistics, so rows with many missing items get predictions close to those of an average respondent.
 
 ## How to use
 ```
