@@ -1,0 +1,2 @@
+lr_full_onehot: ROC=0.8277 (0.8220-0.8340) PR=0.1783 sens=0.585 spec=0.852 ppv=0.149 ECE=0.0007
+lr_pre_onehot: ROC=0.8066 (0.8006-0.8133) PR=0.1573 sens=0.667 spec=0.775 ppv=0.116 ECE=0.0013

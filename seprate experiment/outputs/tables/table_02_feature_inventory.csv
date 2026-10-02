@@ -1,0 +1,109 @@
+dataset,output_feature,chosen_raw_variable,available,candidate_variables,kind,description,used_in_cleaned_file,cleaned_file_note
+BRFSS 2023,age,_AGE80,True,_AGE80,numeric_age,"Age, top-coded at 80 in BRFSS.",True,available and retained
+BRFSS 2023,sex,SEXVAR,True,SEXVAR|_SEX,categorical,Sex variable.,True,available and retained
+BRFSS 2023,race_ethnicity,_IMPRACE,True,_IMPRACE,categorical,Imputed race/ethnicity grouping.,True,available and retained
+BRFSS 2023,education,EDUCA,True,EDUCA|_EDUCAG,categorical,Education category.,True,available and retained
+BRFSS 2023,income,INCOME3,True,INCOME3|_INCOMG1,categorical,Income category.,True,available and retained
+BRFSS 2023,employment,EMPLOY1,True,EMPLOY1,categorical,Employment status.,True,available and retained
+BRFSS 2023,marital,MARITAL,True,MARITAL,categorical,Marital status.,True,available and retained
+BRFSS 2023,home_ownership,RENTHOM1,True,RENTHOM1,categorical,Home ownership/rent status.,True,available and retained
+BRFSS 2023,children_count,CHILDREN,True,CHILDREN|_CHLDCNT,numeric_children,Number of children in household.,True,available and retained
+BRFSS 2023,general_health,GENHLTH,True,GENHLTH|_RFHLTH,categorical,General self-rated health.,True,available and retained
+BRFSS 2023,physical_health_days,PHYSHLTH,True,PHYSHLTH,numeric_days,Poor physical-health days in past 30 days.,True,available and retained
+BRFSS 2023,mental_health_days,MENTHLTH,True,MENTHLTH,numeric_days,Poor mental-health days in past 30 days.,True,available and retained
+BRFSS 2023,poor_health_days,POORHLTH,True,POORHLTH,numeric_days,Activity-limited days because of poor health.,True,available and retained
+BRFSS 2023,health_insurance,PRIMINS1,True,PRIMINS1|PRIMINS2|_HLTHPL1|_HLTHPL2,categorical,Health insurance indicator/category.,True,available and retained
+BRFSS 2023,personal_doctor,PERSDOC3,True,PERSDOC3,categorical,Has personal doctor/healthcare provider.,True,available and retained
+BRFSS 2023,medical_cost_barrier,MEDCOST1,True,MEDCOST1,yes_no,Could not see doctor because of cost.,True,available and retained
+BRFSS 2023,recent_checkup,CHECKUP1,True,CHECKUP1,categorical,Time since last routine checkup.,True,available and retained
+BRFSS 2023,exercise_any,EXERANY2,True,EXERANY2|_TOTINDA,categorical,Any recent physical activity/exercise indicator.,True,available and retained
+BRFSS 2023,hypertension_status,BPHIGH6,True,BPHIGH6|_RFHYPE6,bp_status,High blood-pressure history/status when available.,True,available and retained
+BRFSS 2023,cholesterol_status,TOLDHI3,True,TOLDHI3|_RFCHOL3,categorical,High cholesterol history/status when available.,True,available and retained
+BRFSS 2023,cholesterol_meds,CHOLMED3,True,CHOLMED3,yes_no,Currently taking cholesterol medication.,True,available and retained
+BRFSS 2023,heart_attack,CVDINFR4,True,CVDINFR4,yes_no,Ever told had myocardial infarction/heart attack.,True,available and retained
+BRFSS 2023,coronary_heart_disease,CVDCRHD4,True,CVDCRHD4,yes_no,Ever told had angina/coronary heart disease.,True,available and retained
+BRFSS 2023,computed_michd,_MICHD,True,_MICHD,categorical,Computed myocardial infarction/coronary heart disease indicator.,True,available and retained
+BRFSS 2023,asthma_ever,ASTHMA3,True,ASTHMA3,yes_no,Ever told had asthma.,True,available and retained
+BRFSS 2023,asthma_current,ASTHNOW,True,ASTHNOW|_CASTHM1,categorical,Current asthma status.,True,available and retained
+BRFSS 2023,skin_cancer,CHCSCNC1,True,CHCSCNC1,yes_no,Ever told had skin cancer.,True,available and retained
+BRFSS 2023,other_cancer,CHCOCNC1,True,CHCOCNC1,yes_no,Ever told had other cancer.,True,available and retained
+BRFSS 2023,copd,CHCCOPD3,True,CHCCOPD3,yes_no,Ever told had COPD/emphysema/chronic bronchitis.,True,available and retained
+BRFSS 2023,depression,ADDEPEV3,True,ADDEPEV3,yes_no,Ever told had depressive disorder.,True,available and retained
+BRFSS 2023,kidney_disease,CHCKDNY2,True,CHCKDNY2,yes_no,Ever told had kidney disease.,True,available and retained
+BRFSS 2023,arthritis,HAVARTH4,True,HAVARTH4|_DRDXAR2,categorical,Arthritis/rheumatoid/gout/lupus/fibromyalgia indicator.,True,available and retained
+BRFSS 2023,diabetes_status,DIABETE4,True,DIABETE4,diabetes_status,Diabetes / prediabetes / gestational diabetes status.,True,available and retained
+BRFSS 2023,deaf,DEAF,True,DEAF,yes_no,Deaf or serious difficulty hearing.,True,available and retained
+BRFSS 2023,blind,BLIND,True,BLIND,yes_no,Blind or serious difficulty seeing.,True,available and retained
+BRFSS 2023,cognitive_difficulty,DECIDE,True,DECIDE,yes_no,"Difficulty concentrating, remembering, or making decisions.",True,available and retained
+BRFSS 2023,walking_difficulty,DIFFWALK,True,DIFFWALK,yes_no,Serious difficulty walking or climbing stairs.,True,available and retained
+BRFSS 2023,dressing_difficulty,DIFFDRES,True,DIFFDRES,yes_no,Difficulty dressing or bathing.,True,available and retained
+BRFSS 2023,independent_living_difficulty,DIFFALON,True,DIFFALON,yes_no,Difficulty doing errands alone.,True,available and retained
+BRFSS 2023,bmi,_BMI5,True,_BMI5,numeric_bmi,BMI scaled by 100 in BRFSS.,True,available and retained
+BRFSS 2023,bmi_category,_BMI5CAT,True,_BMI5CAT|_RFBMI5,categorical,BMI category/obesity indicator.,True,available and retained
+BRFSS 2023,smoking_status,_SMOKER3,True,_SMOKER3,smoking_status,Computed smoking status.,True,available and retained
+BRFSS 2023,smoked_100,SMOKE100,True,SMOKE100,yes_no,Smoked at least 100 cigarettes.,True,available and retained
+BRFSS 2023,current_smoking_detail,SMOKDAY2,True,SMOKDAY2|_RFSMOK3,categorical,Current smoking frequency/status.,True,available and retained
+BRFSS 2023,smokeless_tobacco,USENOW3,True,USENOW3,categorical,Current smokeless tobacco use.,True,available and retained
+BRFSS 2023,ecigarette_use,ECIGNOW2,True,ECIGNOW2|ECIGNOW3|_CURECI2|_CURECI3,categorical,Current e-cigarette use/status.,True,available and retained
+BRFSS 2023,alcohol_any,DRNKANY6,True,DRNKANY6,categorical,Any alcohol use in past 30 days.,True,available and retained
+BRFSS 2023,alcohol_days_code,ALCDAY4,True,ALCDAY4,numeric_code,BRFSS alcohol days code.,True,available and retained
+BRFSS 2023,average_drinks,AVEDRNK3,True,AVEDRNK3|AVEDRNK4,numeric_code,Average drinks on drinking days.,True,available and retained
+BRFSS 2023,binge_drinking,_RFBING6,True,_RFBING6|DRNK3GE5,categorical,Binge drinking indicator/code.,True,available and retained
+BRFSS 2023,max_drinks,MAXDRNKS,True,MAXDRNKS,numeric_code,Maximum drinks on one occasion.,True,available and retained
+BRFSS 2023,heavy_drinking,_RFDRHV8,True,_RFDRHV8|_RFDRHV9,categorical,Heavy drinking computed indicator.,True,available and retained
+BRFSS 2023,flu_vaccine,FLUSHOT7,True,FLUSHOT7|_FLSHOT7,categorical,Flu vaccination status.,True,available and retained
+BRFSS 2023,pneumonia_vaccine,PNEUVAC4,True,PNEUVAC4|_PNEUMO3,categorical,Pneumonia vaccination status.,True,available and retained
+BRFSS 2024,age,_AGE80,True,_AGE80,numeric_age,"Age, top-coded at 80 in BRFSS.",True,available and retained
+BRFSS 2024,sex,SEXVAR,True,SEXVAR|_SEX,categorical,Sex variable.,True,available and retained
+BRFSS 2024,race_ethnicity,_IMPRACE,True,_IMPRACE,categorical,Imputed race/ethnicity grouping.,True,available and retained
+BRFSS 2024,education,EDUCA,True,EDUCA|_EDUCAG,categorical,Education category.,True,available and retained
+BRFSS 2024,income,INCOME3,True,INCOME3|_INCOMG1,categorical,Income category.,True,available and retained
+BRFSS 2024,employment,EMPLOY1,True,EMPLOY1,categorical,Employment status.,True,available and retained
+BRFSS 2024,marital,MARITAL,True,MARITAL,categorical,Marital status.,True,available and retained
+BRFSS 2024,home_ownership,RENTHOM1,True,RENTHOM1,categorical,Home ownership/rent status.,True,available and retained
+BRFSS 2024,children_count,CHILDREN,True,CHILDREN|_CHLDCNT,numeric_children,Number of children in household.,True,available and retained
+BRFSS 2024,general_health,GENHLTH,True,GENHLTH|_RFHLTH,categorical,General self-rated health.,True,available and retained
+BRFSS 2024,physical_health_days,PHYSHLTH,True,PHYSHLTH,numeric_days,Poor physical-health days in past 30 days.,True,available and retained
+BRFSS 2024,mental_health_days,MENTHLTH,True,MENTHLTH,numeric_days,Poor mental-health days in past 30 days.,True,available and retained
+BRFSS 2024,poor_health_days,POORHLTH,True,POORHLTH,numeric_days,Activity-limited days because of poor health.,True,available and retained
+BRFSS 2024,health_insurance,PRIMINS2,True,PRIMINS1|PRIMINS2|_HLTHPL1|_HLTHPL2,categorical,Health insurance indicator/category.,True,available and retained
+BRFSS 2024,personal_doctor,PERSDOC3,True,PERSDOC3,categorical,Has personal doctor/healthcare provider.,True,available and retained
+BRFSS 2024,medical_cost_barrier,MEDCOST1,True,MEDCOST1,yes_no,Could not see doctor because of cost.,True,available and retained
+BRFSS 2024,recent_checkup,CHECKUP1,True,CHECKUP1,categorical,Time since last routine checkup.,True,available and retained
+BRFSS 2024,exercise_any,EXERANY2,True,EXERANY2|_TOTINDA,categorical,Any recent physical activity/exercise indicator.,True,available and retained
+BRFSS 2024,hypertension_status,,False,BPHIGH6|_RFHYPE6,bp_status,High blood-pressure history/status when available.,False,missing from XPT or dropped because it had insufficient variation
+BRFSS 2024,cholesterol_status,,False,TOLDHI3|_RFCHOL3,categorical,High cholesterol history/status when available.,False,missing from XPT or dropped because it had insufficient variation
+BRFSS 2024,cholesterol_meds,,False,CHOLMED3,yes_no,Currently taking cholesterol medication.,False,missing from XPT or dropped because it had insufficient variation
+BRFSS 2024,heart_attack,CVDINFR4,True,CVDINFR4,yes_no,Ever told had myocardial infarction/heart attack.,True,available and retained
+BRFSS 2024,coronary_heart_disease,CVDCRHD4,True,CVDCRHD4,yes_no,Ever told had angina/coronary heart disease.,True,available and retained
+BRFSS 2024,computed_michd,_MICHD,True,_MICHD,categorical,Computed myocardial infarction/coronary heart disease indicator.,True,available and retained
+BRFSS 2024,asthma_ever,ASTHMA3,True,ASTHMA3,yes_no,Ever told had asthma.,True,available and retained
+BRFSS 2024,asthma_current,ASTHNOW,True,ASTHNOW|_CASTHM1,categorical,Current asthma status.,True,available and retained
+BRFSS 2024,skin_cancer,CHCSCNC1,True,CHCSCNC1,yes_no,Ever told had skin cancer.,True,available and retained
+BRFSS 2024,other_cancer,CHCOCNC1,True,CHCOCNC1,yes_no,Ever told had other cancer.,True,available and retained
+BRFSS 2024,copd,CHCCOPD3,True,CHCCOPD3,yes_no,Ever told had COPD/emphysema/chronic bronchitis.,True,available and retained
+BRFSS 2024,depression,ADDEPEV3,True,ADDEPEV3,yes_no,Ever told had depressive disorder.,True,available and retained
+BRFSS 2024,kidney_disease,CHCKDNY2,True,CHCKDNY2,yes_no,Ever told had kidney disease.,True,available and retained
+BRFSS 2024,arthritis,HAVARTH4,True,HAVARTH4|_DRDXAR2,categorical,Arthritis/rheumatoid/gout/lupus/fibromyalgia indicator.,True,available and retained
+BRFSS 2024,diabetes_status,DIABETE4,True,DIABETE4,diabetes_status,Diabetes / prediabetes / gestational diabetes status.,True,available and retained
+BRFSS 2024,deaf,DEAF,True,DEAF,yes_no,Deaf or serious difficulty hearing.,True,available and retained
+BRFSS 2024,blind,BLIND,True,BLIND,yes_no,Blind or serious difficulty seeing.,True,available and retained
+BRFSS 2024,cognitive_difficulty,DECIDE,True,DECIDE,yes_no,"Difficulty concentrating, remembering, or making decisions.",True,available and retained
+BRFSS 2024,walking_difficulty,DIFFWALK,True,DIFFWALK,yes_no,Serious difficulty walking or climbing stairs.,True,available and retained
+BRFSS 2024,dressing_difficulty,DIFFDRES,True,DIFFDRES,yes_no,Difficulty dressing or bathing.,True,available and retained
+BRFSS 2024,independent_living_difficulty,DIFFALON,True,DIFFALON,yes_no,Difficulty doing errands alone.,True,available and retained
+BRFSS 2024,bmi,_BMI5,True,_BMI5,numeric_bmi,BMI scaled by 100 in BRFSS.,True,available and retained
+BRFSS 2024,bmi_category,_BMI5CAT,True,_BMI5CAT|_RFBMI5,categorical,BMI category/obesity indicator.,True,available and retained
+BRFSS 2024,smoking_status,_SMOKER3,True,_SMOKER3,smoking_status,Computed smoking status.,True,available and retained
+BRFSS 2024,smoked_100,SMOKE100,True,SMOKE100,yes_no,Smoked at least 100 cigarettes.,True,available and retained
+BRFSS 2024,current_smoking_detail,SMOKDAY2,True,SMOKDAY2|_RFSMOK3,categorical,Current smoking frequency/status.,True,available and retained
+BRFSS 2024,smokeless_tobacco,USENOW3,True,USENOW3,categorical,Current smokeless tobacco use.,True,available and retained
+BRFSS 2024,ecigarette_use,ECIGNOW3,True,ECIGNOW2|ECIGNOW3|_CURECI2|_CURECI3,categorical,Current e-cigarette use/status.,True,available and retained
+BRFSS 2024,alcohol_any,DRNKANY6,True,DRNKANY6,categorical,Any alcohol use in past 30 days.,True,available and retained
+BRFSS 2024,alcohol_days_code,ALCDAY4,True,ALCDAY4,numeric_code,BRFSS alcohol days code.,True,available and retained
+BRFSS 2024,average_drinks,AVEDRNK4,True,AVEDRNK3|AVEDRNK4,numeric_code,Average drinks on drinking days.,True,available and retained
+BRFSS 2024,binge_drinking,_RFBING6,True,_RFBING6|DRNK3GE5,categorical,Binge drinking indicator/code.,True,available and retained
+BRFSS 2024,max_drinks,MAXDRNKS,True,MAXDRNKS,numeric_code,Maximum drinks on one occasion.,True,available and retained
+BRFSS 2024,heavy_drinking,_RFDRHV9,True,_RFDRHV8|_RFDRHV9,categorical,Heavy drinking computed indicator.,True,available and retained
+BRFSS 2024,flu_vaccine,FLUSHOT7,True,FLUSHOT7|_FLSHOT7,categorical,Flu vaccination status.,True,available and retained
+BRFSS 2024,pneumonia_vaccine,PNEUVAC4,True,PNEUVAC4|_PNEUMO3,categorical,Pneumonia vaccination status.,True,available and retained

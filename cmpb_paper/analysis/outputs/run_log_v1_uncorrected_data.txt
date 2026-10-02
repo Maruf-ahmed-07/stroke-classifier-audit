@@ -1,0 +1,8 @@
+10:42:32 xgb_full: n=55 isotonic ROC=0.8326 PR=0.1881 t=0.0866 sens=0.637 ppv=0.144 F2=0.3779
+10:43:40 xgb_pre: n=37 isotonic ROC=0.8108 PR=0.1649 t=0.0801 sens=0.601 ppv=0.134 F2=0.3535
+10:44:44 lr_full: n=55 isotonic ROC=0.8267 PR=0.1784 t=0.0885 sens=0.623 ppv=0.142 F2=0.3713
+10:45:43 lr_pre: n=37 isotonic ROC=0.8057 PR=0.1573 t=0.0713 sens=0.586 ppv=0.131 F2=0.3457
+10:45:43 sanity check: published Stage 2 result reproduced
+10:48:26 xgb_full_2024feats: 2024 ROC=0.8235 PR=0.1948 sens=0.643 ppv=0.144 ECE=0.0014 slope=0.953
+10:51:39 xgb_pre_2024feats: 2024 ROC=0.8044 PR=0.1713 sens=0.609 ppv=0.132 ECE=0.0016 slope=0.952
+10:51:43 done in 10.5 min

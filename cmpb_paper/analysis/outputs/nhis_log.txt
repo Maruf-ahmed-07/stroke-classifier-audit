@@ -1,0 +1,86 @@
+11:48:17 NHIS 2012: sample adults=34,525 linked=1.0000 eligible=33,964 stroke deaths=151
+11:48:25 NHIS 2014: sample adults=36,697 linked=1.0000 eligible=35,998 stroke deaths=130
+11:49:14 NHIS 2015: sample adults=33,672 linked=1.0000 eligible=33,129 stroke deaths=103
+11:49:46 NHIS 2016: sample adults=33,028 linked=1.0000 eligible=32,487 stroke deaths=78
+11:50:10 NHIS 2017: sample adults=26,742 linked=1.0000 eligible=26,267 stroke deaths=47
+11:50:42 NHIS 2018: sample adults=25,417 linked=1.0000 eligible=24,922 stroke deaths=19
+11:50:48 NHIS missing share per predictor:
+age                       0.0000
+sex                       0.0000
+race_ethnicity            0.0000
+education                 0.0041
+marital                   0.0021
+uninsured                 0.0038
+hypertension              0.0013
+high_cholesterol          0.0032
+diabetes                  0.0008
+heart_attack              0.0009
+coronary_heart_disease    0.0019
+asthma_ever               0.0008
+cancer_any                0.0008
+copd                      0.0012
+kidney_disease            0.0009
+arthritis                 0.0013
+bmi                       0.0352
+smoking_status            0.0048
+11:50:50 BRFSS missing share per predictor:
+age                       0.0000
+sex                       0.0000
+race_ethnicity            0.0000
+education                 0.0051
+marital                   0.0096
+uninsured                 0.0427
+hypertension              0.0040
+high_cholesterol          0.1265
+diabetes                  0.0017
+heart_attack              0.0050
+coronary_heart_disease    0.0089
+asthma_ever               0.0033
+cancer_any                0.0068
+copd                      0.0041
+kidney_disease            0.0037
+arthritis                 0.0053
+bmi                       0.0933
+smoking_status            0.0530
+11:51:47 BRFSS 2023 test (internal): n=86,370 events=3,670 ROC=0.804 (0.798-0.810) PR=0.156 O/E=1.01 slope=0.92 sens=0.576 spec=0.827 ppv=0.129
+11:52:53 NHIS prevalent stroke (external): n=189,913 events=6,672 ROC=0.838 (0.834-0.843) PR=0.158 O/E=0.99 slope=0.99 sens=0.606 spec=0.858 ppv=0.134
+11:53:56 NHIS cerebrovascular death, no baseline stroke (external): n=180,021 events=397 ROC=0.845 (0.832-0.857) PR=0.009 O/E=0.07 slope=0.92 sens=0.557 spec=0.858 ppv=0.009
+11:54:06 NHIS cerebrovascular death, 2012 cohort: n=32,840 events=114 ROC=0.846 (0.822-0.872) PR=0.013 O/E=0.11 slope=0.93 sens=0.544 spec=0.869 ppv=0.014
+11:54:22 NHIS cerebrovascular death, 2014 cohort: n=34,806 events=102 ROC=0.858 (0.831-0.879) PR=0.012 O/E=0.09 slope=1.02 sens=0.598 spec=0.862 ppv=0.013
+11:54:40 NHIS cerebrovascular death, 2015 cohort: n=31,953 events=77 ROC=0.857 (0.828-0.885) PR=0.011 O/E=0.07 slope=1.00 sens=0.545 spec=0.858 ppv=0.009
+11:54:57 NHIS cerebrovascular death, 2016 cohort: n=31,256 events=55 ROC=0.862 (0.824-0.893) PR=0.009 O/E=0.05 slope=1.11 sens=0.673 spec=0.852 ppv=0.008
+11:55:12 NHIS cerebrovascular death, 2017 cohort: n=25,255 events=37 ROC=0.793 (0.745-0.841) PR=0.004 O/E=0.04 slope=0.76 sens=0.378 spec=0.854 ppv=0.004
+11:55:23 NHIS cerebrovascular death, 2018 cohort: n=23,911 events=12 ROC=0.822 (0.757-0.882) PR=0.002 O/E=0.01 slope=0.93 sens=0.417 spec=0.849 ppv=0.001
+11:55:49 BRFSS 2023 test (internal): n=86,370 events=3,670 ROC=0.796 (0.789-0.802) PR=0.147 O/E=1.01 slope=0.94 sens=0.648 spec=0.772 ppv=0.112
+11:57:01 NHIS prevalent stroke (external): n=189,913 events=6,672 ROC=0.833 (0.828-0.837) PR=0.152 O/E=1.00 slope=1.02 sens=0.665 spec=0.819 ppv=0.118
+11:57:55 NHIS cerebrovascular death, no baseline stroke (external): n=180,021 events=397 ROC=0.842 (0.828-0.855) PR=0.009 O/E=0.07 slope=1.01 sens=0.668 spec=0.820 ppv=0.008
+11:58:12 NHIS cerebrovascular death, 2012 cohort: n=32,840 events=114 ROC=0.845 (0.820-0.871) PR=0.013 O/E=0.11 slope=0.98 sens=0.675 spec=0.836 ppv=0.014
+11:58:33 NHIS cerebrovascular death, 2014 cohort: n=34,806 events=102 ROC=0.855 (0.827-0.878) PR=0.013 O/E=0.09 slope=1.08 sens=0.686 spec=0.825 ppv=0.011
+11:58:49 NHIS cerebrovascular death, 2015 cohort: n=31,953 events=77 ROC=0.851 (0.821-0.879) PR=0.012 O/E=0.07 slope=1.05 sens=0.662 spec=0.821 ppv=0.009
+11:59:05 NHIS cerebrovascular death, 2016 cohort: n=31,256 events=55 ROC=0.860 (0.819-0.894) PR=0.009 O/E=0.05 slope=1.08 sens=0.764 spec=0.811 ppv=0.007
+11:59:13 NHIS cerebrovascular death, 2017 cohort: n=25,255 events=37 ROC=0.792 (0.744-0.843) PR=0.005 O/E=0.04 slope=0.81 sens=0.486 spec=0.814 ppv=0.004
+11:59:22 NHIS cerebrovascular death, 2018 cohort: n=23,911 events=12 ROC=0.825 (0.760-0.889) PR=0.002 O/E=0.01 slope=0.95 sens=0.583 spec=0.805 ppv=0.001
+11:59:23 
+                  model                                                 evaluation         n  events  roc_auc  roc_auc_lo  roc_auc_hi  pr_auc  observed_over_expected  cal_slope  sensitivity  specificity    ppv
+0               XGBoost                                 BRFSS 2023 test (internal)   86370.0  3670.0    0.804       0.798       0.810   0.156                   1.010      0.916        0.576        0.827  0.129
+1               XGBoost                           NHIS prevalent stroke (external)  189913.0  6672.0    0.838       0.834       0.843   0.158                   0.991      0.994        0.606        0.858  0.134
+2               XGBoost  NHIS cerebrovascular death, no baseline stroke (external)  180021.0   397.0    0.845       0.832       0.857   0.009                   0.067      0.923        0.557        0.858  0.009
+3               XGBoost                    NHIS cerebrovascular death, 2012 cohort   32840.0   114.0    0.846       0.822       0.872   0.013                   0.111      0.926        0.544        0.869  0.014
+4               XGBoost                    NHIS cerebrovascular death, 2014 cohort   34806.0   102.0    0.858       0.831       0.879   0.012                   0.092      1.017        0.598        0.862  0.013
+5               XGBoost                    NHIS cerebrovascular death, 2015 cohort   31953.0    77.0    0.857       0.828       0.885   0.011                   0.074      1.003        0.545        0.858  0.009
+6               XGBoost                    NHIS cerebrovascular death, 2016 cohort   31256.0    55.0    0.862       0.824       0.893   0.009                   0.052      1.109        0.673        0.852  0.008
+7               XGBoost                    NHIS cerebrovascular death, 2017 cohort   25255.0    37.0    0.793       0.745       0.841   0.004                   0.044      0.763        0.378        0.854  0.004
+8               XGBoost                    NHIS cerebrovascular death, 2018 cohort   23911.0    12.0    0.822       0.757       0.882   0.002                   0.014      0.927        0.417        0.849  0.001
+9   Logistic regression                                 BRFSS 2023 test (internal)   86370.0  3670.0    0.796       0.789       0.802   0.147                   1.015      0.945        0.648        0.772  0.112
+10  Logistic regression                           NHIS prevalent stroke (external)  189913.0  6672.0    0.833       0.828       0.837   0.152                   1.003      1.016        0.665        0.819  0.118
+11  Logistic regression  NHIS cerebrovascular death, no baseline stroke (external)  180021.0   397.0    0.842       0.828       0.855   0.009                   0.068      1.009        0.668        0.820  0.008
+12  Logistic regression                    NHIS cerebrovascular death, 2012 cohort   32840.0   114.0    0.845       0.820       0.871   0.013                   0.113      0.978        0.675        0.836  0.014
+13  Logistic regression                    NHIS cerebrovascular death, 2014 cohort   34806.0   102.0    0.855       0.827       0.878   0.013                   0.092      1.082        0.686        0.825  0.011
+14  Logistic regression                    NHIS cerebrovascular death, 2015 cohort   31953.0    77.0    0.851       0.821       0.879   0.012                   0.074      1.046        0.662        0.821  0.009
+15  Logistic regression                    NHIS cerebrovascular death, 2016 cohort   31256.0    55.0    0.860       0.819       0.894   0.009                   0.052      1.081        0.764        0.811  0.007
+16  Logistic regression                    NHIS cerebrovascular death, 2017 cohort   25255.0    37.0    0.792       0.744       0.843   0.005                   0.044      0.811        0.486        0.814  0.004
+17  Logistic regression                    NHIS cerebrovascular death, 2018 cohort   23911.0    12.0    0.825       0.760       0.889   0.002                   0.014      0.954        0.583        0.805  0.001
+18             Age only                           NHIS prevalent stroke (external)       NaN     NaN    0.765         NaN         NaN     NaN                     NaN        NaN          NaN          NaN    NaN
+19             Age only  NHIS cerebrovascular death, no baseline stroke (external)       NaN     NaN    0.883         NaN         NaN     NaN                     NaN        NaN          NaN          NaN    NaN
+20             Age only                                 BRFSS 2023 test (internal)       NaN     NaN    0.703         NaN         NaN     NaN                     NaN        NaN          NaN          NaN    NaN
+11:59:23 done in 11.2 min

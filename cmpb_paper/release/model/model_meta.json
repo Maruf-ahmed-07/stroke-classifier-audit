@@ -1,0 +1,19 @@
+{
+ "best_iteration": 155,
+ "calibration": "isotonic",
+ "n_training": 259109,
+ "training_data": "BRFSS 2023, 60% stratified training split (seed 42), corrected missing-value codes",
+ "xgboost_version": "3.2.0",
+ "sklearn_version": "1.8.0",
+ "params": {
+  "max_depth": 5,
+  "learning_rate": 0.0319714284323968,
+  "subsample": 0.9783193964865596,
+  "colsample_bytree": 0.9587338714429584,
+  "min_child_weight": 10,
+  "gamma": 2.3765009942903124,
+  "reg_alpha": 0.8366574357510471,
+  "reg_lambda": 1.152093283217893e-07,
+  "scale_pos_weight": 5.009717215231502
+ }
+}

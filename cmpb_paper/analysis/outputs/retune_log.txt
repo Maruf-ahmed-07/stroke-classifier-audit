@@ -1,0 +1,4 @@
+17:54:24 search done in 8.1 min; best composite 0.3352
+17:55:27 xgb_pre: ROC original 0.8109 -> retuned 0.8119 (delta +0.0010, +0.0002 to +0.0019); sens 0.626 ppv 0.126
+17:56:35 xgb_full: ROC original 0.8323 -> retuned 0.8334 (delta +0.0011, +0.0000 to +0.0022); sens 0.586 ppv 0.154
+17:56:35 done in 10.3 min

@@ -1,0 +1,13 @@
+dataset,variant,classifier,synthetic_share_s,reported_sensitivity,sensitivity_synthetic,sensitivity_real_internal,identity_s_plus,reported_specificity,reported_roc_auc,actual_sensitivity,actual_specificity,actual_roc_auc,synthetic_rows_with_nonint_value
+brfss2023,SMOTE,Logistic regression,0.956,0.7832,0.7841,0.7639,0.9896,0.7371,0.8366,0.7617,0.738,0.8254,0.9998
+brfss2023,SMOTE,Random forest,0.956,0.9588,0.9998,0.068,0.959,0.9991,0.9962,0.0106,0.9992,0.8153,0.9998
+brfss2023,SMOTE,XGBoost,0.956,0.956,0.999,0.0234,0.957,0.9986,0.9927,0.0203,0.9986,0.8283,0.9998
+brfss2023,SMOTE + rounding,Logistic regression,0.956,0.779,0.7796,0.7647,0.9896,0.7361,0.8351,0.7619,0.7373,0.8256,0.0
+brfss2023,SMOTE + rounding,Random forest,0.956,0.9913,0.9912,0.995,0.9998,0.9576,0.9984,0.2312,0.9575,0.8067,0.0
+brfss2023,SMOTE + rounding,XGBoost,0.956,0.8831,0.9041,0.4265,0.9748,0.9011,0.9627,0.3639,0.9017,0.7815,0.0
+kaggle,SMOTE,Logistic regression,0.949,0.84,0.8409,0.8224,0.991,0.7441,0.8552,0.793,0.7413,0.8415,0.8453
+kaggle,SMOTE,Random forest,0.949,0.9707,0.9899,0.6137,0.9803,0.9598,0.9948,0.103,0.9573,0.7962,0.8453
+kaggle,SMOTE,XGBoost,0.949,0.955,0.9857,0.3809,0.9686,0.9616,0.9922,0.121,0.9632,0.784,0.8453
+kaggle,SMOTE + rounding,Logistic regression,0.949,0.84,0.8407,0.8265,0.9912,0.7431,0.855,0.794,0.7408,0.8424,0.0
+kaggle,SMOTE + rounding,Random forest,0.949,0.9789,0.9791,0.9734,0.9987,0.9145,0.9908,0.237,0.9187,0.8004,0.0
+kaggle,SMOTE + rounding,XGBoost,0.949,0.95,0.9606,0.7523,0.9873,0.9223,0.9864,0.249,0.9231,0.7893,0.0

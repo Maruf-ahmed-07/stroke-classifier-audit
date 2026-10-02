@@ -1,0 +1,327 @@
+{
+ "features": [
+  "age",
+  "sex",
+  "race_ethnicity",
+  "education",
+  "income",
+  "marital",
+  "home_ownership",
+  "children_count",
+  "health_insurance",
+  "medical_cost_barrier",
+  "hypertension_status",
+  "cholesterol_status",
+  "heart_attack",
+  "coronary_heart_disease",
+  "computed_michd",
+  "asthma_ever",
+  "asthma_current",
+  "skin_cancer",
+  "other_cancer",
+  "copd",
+  "kidney_disease",
+  "arthritis",
+  "diabetes_status",
+  "bmi",
+  "bmi_category",
+  "smoking_status",
+  "smoked_100",
+  "current_smoking_detail",
+  "smokeless_tobacco",
+  "ecigarette_use",
+  "alcohol_any",
+  "alcohol_days_code",
+  "average_drinks",
+  "binge_drinking",
+  "max_drinks",
+  "heavy_drinking",
+  "bmi_missing"
+ ],
+ "numeric": [
+  {
+   "name": "age",
+   "impute_median": 58.0,
+   "mean": 55.39464086542729,
+   "scale": 17.91496752170001
+  },
+  {
+   "name": "sex",
+   "impute_median": 2.0,
+   "mean": 1.5306762790948982,
+   "scale": 0.4990580786851286
+  },
+  {
+   "name": "race_ethnicity",
+   "impute_median": 1.0,
+   "mean": 1.7657549525489273,
+   "scale": 1.506716040587022
+  },
+  {
+   "name": "education",
+   "impute_median": 5.0,
+   "mean": 5.041912862926413,
+   "scale": 1.009066698278896
+  },
+  {
+   "name": "income",
+   "impute_median": 7.0,
+   "mean": 6.995947651374518,
+   "scale": 2.1777807303734904
+  },
+  {
+   "name": "marital",
+   "impute_median": 1.0,
+   "mean": 2.3365417642768103,
+   "scale": 1.704730479561978
+  },
+  {
+   "name": "home_ownership",
+   "impute_median": 1.0,
+   "mean": 1.3433535693472631,
+   "scale": 0.5688162170493032
+  },
+  {
+   "name": "children_count",
+   "impute_median": 0.0,
+   "mean": 0.4680076724467309,
+   "scale": 1.0355368385928085
+  },
+  {
+   "name": "health_insurance",
+   "impute_median": 3.0,
+   "mean": 7.3205021824791885,
+   "scale": 19.11583695621716
+  },
+  {
+   "name": "medical_cost_barrier",
+   "impute_median": 0.0,
+   "mean": 0.08618380681489257,
+   "scale": 0.28063527621770196
+  },
+  {
+   "name": "cholesterol_status",
+   "impute_median": 2.0,
+   "mean": 1.633208418078878,
+   "scale": 0.48192895467373903
+  },
+  {
+   "name": "heart_attack",
+   "impute_median": 0.0,
+   "mean": 0.05367239269959747,
+   "scale": 0.2253700666936443
+  },
+  {
+   "name": "coronary_heart_disease",
+   "impute_median": 0.0,
+   "mean": 0.05404675252499913,
+   "scale": 0.2261099313752066
+  },
+  {
+   "name": "computed_michd",
+   "impute_median": 2.0,
+   "mean": 1.9165872277690084,
+   "scale": 0.2765051204945983
+  },
+  {
+   "name": "asthma_ever",
+   "impute_median": 0.0,
+   "mean": 0.14839700666514866,
+   "scale": 0.3554930872435812
+  },
+  {
+   "name": "asthma_current",
+   "impute_median": 1.0,
+   "mean": 1.0427001763736496,
+   "scale": 0.202180294072664
+  },
+  {
+   "name": "skin_cancer",
+   "impute_median": 0.0,
+   "mean": 0.08454357046648321,
+   "scale": 0.2782012853299963
+  },
+  {
+   "name": "other_cancer",
+   "impute_median": 0.0,
+   "mean": 0.11742548502753668,
+   "scale": 0.3219266073091574
+  },
+  {
+   "name": "copd",
+   "impute_median": 0.0,
+   "mean": 0.07583680999116202,
+   "scale": 0.2647368282682377
+  },
+  {
+   "name": "kidney_disease",
+   "impute_median": 0.0,
+   "mean": 0.04806471407785912,
+   "scale": 0.21390300918517433
+  },
+  {
+   "name": "arthritis",
+   "impute_median": 2.0,
+   "mean": 1.6699381341443176,
+   "scale": 0.47023508010733095
+  },
+  {
+   "name": "bmi",
+   "impute_median": 27.40999984741211,
+   "mean": 28.375500466498774,
+   "scale": 6.180936890900089
+  },
+  {
+   "name": "bmi_category",
+   "impute_median": 3.0,
+   "mean": 3.000845204141886,
+   "scale": 0.7944450488231783
+  },
+  {
+   "name": "smoked_100",
+   "impute_median": 0.0,
+   "mean": 0.36714664484830706,
+   "scale": 0.48202695570365994
+  },
+  {
+   "name": "current_smoking_detail",
+   "impute_median": 3.0,
+   "mean": 2.822179082934209,
+   "scale": 0.541369475483239
+  },
+  {
+   "name": "smokeless_tobacco",
+   "impute_median": 3.0,
+   "mean": 2.956952479458452,
+   "scale": 0.27016291569793854
+  },
+  {
+   "name": "ecigarette_use",
+   "impute_median": 1.0,
+   "mean": 1.553967635242311,
+   "scale": 1.1188972320095865
+  },
+  {
+   "name": "alcohol_any",
+   "impute_median": 1.0,
+   "mean": 1.4402162796352114,
+   "scale": 0.4964130405008965
+  },
+  {
+   "name": "alcohol_days_code",
+   "impute_median": 1.0,
+   "mean": 4.646905870033751,
+   "scale": 7.903511399038945
+  },
+  {
+   "name": "average_drinks",
+   "impute_median": 2.0,
+   "mean": 2.0812283633528748,
+   "scale": 1.524317836218945
+  },
+  {
+   "name": "binge_drinking",
+   "impute_median": 1.0,
+   "mean": 1.1225237255363574,
+   "scale": 0.3278897104470475
+  },
+  {
+   "name": "max_drinks",
+   "impute_median": 2.0,
+   "mean": 2.6013029265675836,
+   "scale": 2.3643759413283494
+  },
+  {
+   "name": "heavy_drinking",
+   "impute_median": 1.0,
+   "mean": 1.0547298627218662,
+   "scale": 0.22745220343692382
+  },
+  {
+   "name": "bmi_missing",
+   "impute_median": 0.0,
+   "mean": 0.09402220687046764,
+   "scale": 0.2918596092056498
+  }
+ ],
+ "categorical": [
+  {
+   "name": "hypertension_status",
+   "impute_most_frequent": "no",
+   "categories": [
+    "borderline",
+    "no",
+    "pregnancy_only",
+    "yes"
+   ],
+   "dropped_reference": "borderline"
+  },
+  {
+   "name": "diabetes_status",
+   "impute_most_frequent": "no",
+   "categories": [
+    "diabetes",
+    "gestational_only",
+    "no",
+    "prediabetes"
+   ],
+   "dropped_reference": "diabetes"
+  },
+  {
+   "name": "smoking_status",
+   "impute_most_frequent": "never",
+   "categories": [
+    "current_every_day",
+    "current_some_days",
+    "former",
+    "never"
+   ],
+   "dropped_reference": "current_every_day"
+  }
+ ],
+ "output_columns": [
+  "num__age",
+  "num__sex",
+  "num__race_ethnicity",
+  "num__education",
+  "num__income",
+  "num__marital",
+  "num__home_ownership",
+  "num__children_count",
+  "num__health_insurance",
+  "num__medical_cost_barrier",
+  "num__cholesterol_status",
+  "num__heart_attack",
+  "num__coronary_heart_disease",
+  "num__computed_michd",
+  "num__asthma_ever",
+  "num__asthma_current",
+  "num__skin_cancer",
+  "num__other_cancer",
+  "num__copd",
+  "num__kidney_disease",
+  "num__arthritis",
+  "num__bmi",
+  "num__bmi_category",
+  "num__smoked_100",
+  "num__current_smoking_detail",
+  "num__smokeless_tobacco",
+  "num__ecigarette_use",
+  "num__alcohol_any",
+  "num__alcohol_days_code",
+  "num__average_drinks",
+  "num__binge_drinking",
+  "num__max_drinks",
+  "num__heavy_drinking",
+  "num__bmi_missing",
+  "cat__hypertension_status_no",
+  "cat__hypertension_status_pregnancy_only",
+  "cat__hypertension_status_yes",
+  "cat__diabetes_status_gestational_only",
+  "cat__diabetes_status_no",
+  "cat__diabetes_status_prediabetes",
+  "cat__smoking_status_current_some_days",
+  "cat__smoking_status_former",
+  "cat__smoking_status_never"
+ ]
+}

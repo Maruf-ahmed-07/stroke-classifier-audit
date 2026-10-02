@@ -1,0 +1,10 @@
+{
+ "xgb_pre_thresholds": {
+  "broad": 0.04116410940627084,
+  "primary": 0.07408272181454302,
+  "focused": 0.0875283522348232
+ },
+ "xgb_pre_calibration": "isotonic",
+ "lr_pre_calibration": "isotonic",
+ "x24_calibration": "isotonic"
+}

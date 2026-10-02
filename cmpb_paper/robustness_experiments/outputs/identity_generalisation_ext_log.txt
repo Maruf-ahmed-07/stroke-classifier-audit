@@ -1,0 +1,763 @@
+17:41:32 BRFSS 2023 Random forest pi=0.01 a=0.5 Random oversampling rep=0 s=0.980 rep=1.000 actual=0.000
+17:41:35 BRFSS 2023 Random forest pi=0.01 a=0.5 SMOTE               rep=0 s=0.980 rep=0.981 actual=0.000
+17:41:37 BRFSS 2023 Random forest pi=0.01 a=0.5 Borderline-SMOTE    rep=0 s=0.980 rep=0.980 actual=0.001
+17:41:38 BRFSS 2023 Random forest pi=0.01 a=0.5 ADASYN              rep=0 s=0.980 rep=0.979 actual=0.000
+17:41:39 BRFSS 2023 Random forest pi=0.01 a=1.0 Random oversampling rep=0 s=0.990 rep=1.000 actual=0.000
+17:41:40 BRFSS 2023 Random forest pi=0.01 a=1.0 SMOTE               rep=0 s=0.990 rep=0.990 actual=0.000
+17:41:42 BRFSS 2023 Random forest pi=0.01 a=1.0 Borderline-SMOTE    rep=0 s=0.990 rep=0.990 actual=0.000
+17:41:44 BRFSS 2023 Random forest pi=0.01 a=1.0 ADASYN              rep=0 s=0.990 rep=0.990 actual=0.000
+17:41:44 BRFSS 2023 Random forest pi=0.01 a=0.5 Random oversampling rep=1 s=0.980 rep=1.000 actual=0.000
+17:41:45 BRFSS 2023 Random forest pi=0.01 a=0.5 SMOTE               rep=1 s=0.980 rep=0.982 actual=0.000
+17:41:46 BRFSS 2023 Random forest pi=0.01 a=0.5 Borderline-SMOTE    rep=1 s=0.980 rep=0.981 actual=0.000
+17:41:47 BRFSS 2023 Random forest pi=0.01 a=0.5 ADASYN              rep=1 s=0.980 rep=0.981 actual=0.000
+17:41:48 BRFSS 2023 Random forest pi=0.01 a=1.0 Random oversampling rep=1 s=0.990 rep=1.000 actual=0.000
+17:41:50 BRFSS 2023 Random forest pi=0.01 a=1.0 SMOTE               rep=1 s=0.990 rep=0.991 actual=0.000
+17:41:51 BRFSS 2023 Random forest pi=0.01 a=1.0 Borderline-SMOTE    rep=1 s=0.990 rep=0.991 actual=0.000
+17:41:53 BRFSS 2023 Random forest pi=0.01 a=1.0 ADASYN              rep=1 s=0.990 rep=0.991 actual=0.000
+17:41:54 BRFSS 2023 Random forest pi=0.01 a=0.5 Random oversampling rep=2 s=0.980 rep=1.000 actual=0.000
+17:41:55 BRFSS 2023 Random forest pi=0.01 a=0.5 SMOTE               rep=2 s=0.980 rep=0.982 actual=0.000
+17:41:56 BRFSS 2023 Random forest pi=0.01 a=0.5 Borderline-SMOTE    rep=2 s=0.980 rep=0.982 actual=0.000
+17:41:57 BRFSS 2023 Random forest pi=0.01 a=0.5 ADASYN              rep=2 s=0.980 rep=0.981 actual=0.000
+17:41:58 BRFSS 2023 Random forest pi=0.01 a=1.0 Random oversampling rep=2 s=0.990 rep=1.000 actual=0.001
+17:41:59 BRFSS 2023 Random forest pi=0.01 a=1.0 SMOTE               rep=2 s=0.990 rep=0.990 actual=0.000
+17:42:01 BRFSS 2023 Random forest pi=0.01 a=1.0 Borderline-SMOTE    rep=2 s=0.990 rep=0.990 actual=0.001
+17:42:03 BRFSS 2023 Random forest pi=0.01 a=1.0 ADASYN              rep=2 s=0.990 rep=0.990 actual=0.000
+17:42:04 BRFSS 2023 Random forest pi=0.02 a=0.5 Random oversampling rep=0 s=0.959 rep=1.000 actual=0.001
+17:42:05 BRFSS 2023 Random forest pi=0.02 a=0.5 SMOTE               rep=0 s=0.959 rep=0.963 actual=0.001
+17:42:06 BRFSS 2023 Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=0 s=0.959 rep=0.966 actual=0.003
+17:42:07 BRFSS 2023 Random forest pi=0.02 a=0.5 ADASYN              rep=0 s=0.959 rep=0.964 actual=0.001
+17:42:08 BRFSS 2023 Random forest pi=0.02 a=1.0 Random oversampling rep=0 s=0.980 rep=1.000 actual=0.001
+17:42:10 BRFSS 2023 Random forest pi=0.02 a=1.0 SMOTE               rep=0 s=0.980 rep=0.982 actual=0.001
+17:42:12 BRFSS 2023 Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=0 s=0.980 rep=0.982 actual=0.002
+17:42:13 BRFSS 2023 Random forest pi=0.02 a=1.0 ADASYN              rep=0 s=0.980 rep=0.982 actual=0.001
+17:42:14 BRFSS 2023 Random forest pi=0.02 a=0.5 Random oversampling rep=1 s=0.959 rep=1.000 actual=0.001
+17:42:15 BRFSS 2023 Random forest pi=0.02 a=0.5 SMOTE               rep=1 s=0.959 rep=0.962 actual=0.001
+17:42:16 BRFSS 2023 Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=1 s=0.959 rep=0.965 actual=0.001
+17:42:17 BRFSS 2023 Random forest pi=0.02 a=0.5 ADASYN              rep=1 s=0.959 rep=0.962 actual=0.000
+17:42:18 BRFSS 2023 Random forest pi=0.02 a=1.0 Random oversampling rep=1 s=0.980 rep=1.000 actual=0.001
+17:42:20 BRFSS 2023 Random forest pi=0.02 a=1.0 SMOTE               rep=1 s=0.980 rep=0.982 actual=0.000
+17:42:21 BRFSS 2023 Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=1 s=0.980 rep=0.982 actual=0.001
+17:42:23 BRFSS 2023 Random forest pi=0.02 a=1.0 ADASYN              rep=1 s=0.980 rep=0.983 actual=0.000
+17:42:24 BRFSS 2023 Random forest pi=0.02 a=0.5 Random oversampling rep=2 s=0.959 rep=1.000 actual=0.002
+17:42:25 BRFSS 2023 Random forest pi=0.02 a=0.5 SMOTE               rep=2 s=0.959 rep=0.967 actual=0.001
+17:42:26 BRFSS 2023 Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=2 s=0.959 rep=0.967 actual=0.003
+17:42:27 BRFSS 2023 Random forest pi=0.02 a=0.5 ADASYN              rep=2 s=0.960 rep=0.967 actual=0.001
+17:42:28 BRFSS 2023 Random forest pi=0.02 a=1.0 Random oversampling rep=2 s=0.980 rep=1.000 actual=0.001
+17:42:30 BRFSS 2023 Random forest pi=0.02 a=1.0 SMOTE               rep=2 s=0.980 rep=0.983 actual=0.001
+17:42:32 BRFSS 2023 Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=2 s=0.980 rep=0.983 actual=0.003
+17:42:33 BRFSS 2023 Random forest pi=0.02 a=1.0 ADASYN              rep=2 s=0.979 rep=0.983 actual=0.002
+17:42:35 BRFSS 2023 Random forest pi=0.05 a=0.5 Random oversampling rep=0 s=0.895 rep=1.000 actual=0.054
+17:42:36 BRFSS 2023 Random forest pi=0.05 a=0.5 SMOTE               rep=0 s=0.895 rep=0.910 actual=0.028
+17:42:37 BRFSS 2023 Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=0 s=0.895 rep=0.914 actual=0.038
+17:42:38 BRFSS 2023 Random forest pi=0.05 a=0.5 ADASYN              rep=0 s=0.897 rep=0.910 actual=0.016
+17:42:40 BRFSS 2023 Random forest pi=0.05 a=1.0 Random oversampling rep=0 s=0.947 rep=1.000 actual=0.047
+17:42:41 BRFSS 2023 Random forest pi=0.05 a=1.0 SMOTE               rep=0 s=0.947 rep=0.961 actual=0.033
+17:42:43 BRFSS 2023 Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=0 s=0.947 rep=0.961 actual=0.044
+17:42:45 BRFSS 2023 Random forest pi=0.05 a=1.0 ADASYN              rep=0 s=0.948 rep=0.957 actual=0.020
+17:42:46 BRFSS 2023 Random forest pi=0.05 a=0.5 Random oversampling rep=1 s=0.895 rep=1.000 actual=0.038
+17:42:47 BRFSS 2023 Random forest pi=0.05 a=0.5 SMOTE               rep=1 s=0.895 rep=0.907 actual=0.017
+17:42:48 BRFSS 2023 Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=1 s=0.895 rep=0.910 actual=0.023
+17:42:49 BRFSS 2023 Random forest pi=0.05 a=0.5 ADASYN              rep=1 s=0.898 rep=0.913 actual=0.011
+17:42:50 BRFSS 2023 Random forest pi=0.05 a=1.0 Random oversampling rep=1 s=0.947 rep=1.000 actual=0.035
+17:42:52 BRFSS 2023 Random forest pi=0.05 a=1.0 SMOTE               rep=1 s=0.947 rep=0.955 actual=0.018
+17:42:54 BRFSS 2023 Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=1 s=0.947 rep=0.957 actual=0.027
+17:42:56 BRFSS 2023 Random forest pi=0.05 a=1.0 ADASYN              rep=1 s=0.948 rep=0.955 actual=0.013
+17:42:57 BRFSS 2023 Random forest pi=0.05 a=0.5 Random oversampling rep=2 s=0.895 rep=1.000 actual=0.039
+17:42:58 BRFSS 2023 Random forest pi=0.05 a=0.5 SMOTE               rep=2 s=0.895 rep=0.907 actual=0.019
+17:42:59 BRFSS 2023 Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=2 s=0.895 rep=0.911 actual=0.025
+17:43:00 BRFSS 2023 Random forest pi=0.05 a=0.5 ADASYN              rep=2 s=0.897 rep=0.906 actual=0.014
+17:43:01 BRFSS 2023 Random forest pi=0.05 a=1.0 Random oversampling rep=2 s=0.947 rep=1.000 actual=0.037
+17:43:03 BRFSS 2023 Random forest pi=0.05 a=1.0 SMOTE               rep=2 s=0.947 rep=0.957 actual=0.022
+17:43:05 BRFSS 2023 Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=2 s=0.947 rep=0.958 actual=0.028
+17:43:07 BRFSS 2023 Random forest pi=0.05 a=1.0 ADASYN              rep=2 s=0.948 rep=0.957 actual=0.017
+17:43:08 BRFSS 2023 Random forest pi=0.10 a=0.5 Random oversampling rep=0 s=0.778 rep=0.979 actual=0.205
+17:43:09 BRFSS 2023 Random forest pi=0.10 a=0.5 SMOTE               rep=0 s=0.778 rep=0.816 actual=0.110
+17:43:10 BRFSS 2023 Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=0 s=0.778 rep=0.827 actual=0.122
+17:43:11 BRFSS 2023 Random forest pi=0.10 a=0.5 ADASYN              rep=0 s=0.795 rep=0.836 actual=0.101
+17:43:13 BRFSS 2023 Random forest pi=0.10 a=1.0 Random oversampling rep=0 s=0.889 rep=1.000 actual=0.221
+17:43:14 BRFSS 2023 Random forest pi=0.10 a=1.0 SMOTE               rep=0 s=0.889 rep=0.918 actual=0.131
+17:43:16 BRFSS 2023 Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=0 s=0.889 rep=0.918 actual=0.136
+17:43:18 BRFSS 2023 Random forest pi=0.10 a=1.0 ADASYN              rep=0 s=0.886 rep=0.910 actual=0.106
+17:43:19 BRFSS 2023 Random forest pi=0.10 a=0.5 Random oversampling rep=1 s=0.778 rep=0.982 actual=0.205
+17:43:20 BRFSS 2023 Random forest pi=0.10 a=0.5 SMOTE               rep=1 s=0.778 rep=0.818 actual=0.117
+17:43:21 BRFSS 2023 Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=1 s=0.778 rep=0.823 actual=0.122
+17:43:22 BRFSS 2023 Random forest pi=0.10 a=0.5 ADASYN              rep=1 s=0.779 rep=0.814 actual=0.104
+17:43:23 BRFSS 2023 Random forest pi=0.10 a=1.0 Random oversampling rep=1 s=0.889 rep=1.000 actual=0.207
+17:43:25 BRFSS 2023 Random forest pi=0.10 a=1.0 SMOTE               rep=1 s=0.889 rep=0.918 actual=0.127
+17:43:27 BRFSS 2023 Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=1 s=0.889 rep=0.922 actual=0.133
+17:43:29 BRFSS 2023 Random forest pi=0.10 a=1.0 ADASYN              rep=1 s=0.887 rep=0.916 actual=0.108
+17:43:29 BRFSS 2023 Random forest pi=0.10 a=0.5 Random oversampling rep=2 s=0.778 rep=0.983 actual=0.221
+17:43:31 BRFSS 2023 Random forest pi=0.10 a=0.5 SMOTE               rep=2 s=0.778 rep=0.821 actual=0.121
+17:43:32 BRFSS 2023 Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=2 s=0.778 rep=0.825 actual=0.132
+17:43:33 BRFSS 2023 Random forest pi=0.10 a=0.5 ADASYN              rep=2 s=0.779 rep=0.816 actual=0.110
+17:43:34 BRFSS 2023 Random forest pi=0.10 a=1.0 Random oversampling rep=2 s=0.889 rep=1.000 actual=0.226
+17:43:36 BRFSS 2023 Random forest pi=0.10 a=1.0 SMOTE               rep=2 s=0.889 rep=0.920 actual=0.137
+17:43:38 BRFSS 2023 Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=2 s=0.889 rep=0.921 actual=0.152
+17:43:40 BRFSS 2023 Random forest pi=0.10 a=1.0 ADASYN              rep=2 s=0.887 rep=0.918 actual=0.118
+17:43:40 BRFSS 2023 Random forest pi=0.20 a=0.5 Random oversampling rep=0 s=0.500 rep=0.842 actual=0.426
+17:43:42 BRFSS 2023 Random forest pi=0.20 a=0.5 SMOTE               rep=0 s=0.500 rep=0.696 actual=0.354
+17:43:43 BRFSS 2023 Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=0 s=0.500 rep=0.700 actual=0.347
+17:43:45 BRFSS 2023 Random forest pi=0.20 a=0.5 ADASYN              rep=0 s=0.517 rep=0.709 actual=0.347
+17:43:46 BRFSS 2023 Random forest pi=0.20 a=1.0 Random oversampling rep=0 s=0.750 rep=0.979 actual=0.504
+17:43:48 BRFSS 2023 Random forest pi=0.20 a=1.0 SMOTE               rep=0 s=0.750 rep=0.876 actual=0.384
+17:43:50 BRFSS 2023 Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=0 s=0.750 rep=0.875 actual=0.377
+17:43:52 BRFSS 2023 Random forest pi=0.20 a=1.0 ADASYN              rep=0 s=0.760 rep=0.872 actual=0.374
+17:43:53 BRFSS 2023 Random forest pi=0.20 a=0.5 Random oversampling rep=1 s=0.500 rep=0.850 actual=0.432
+17:43:54 BRFSS 2023 Random forest pi=0.20 a=0.5 SMOTE               rep=1 s=0.500 rep=0.699 actual=0.355
+17:43:55 BRFSS 2023 Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=1 s=0.500 rep=0.698 actual=0.362
+17:43:57 BRFSS 2023 Random forest pi=0.20 a=0.5 ADASYN              rep=1 s=0.519 rep=0.711 actual=0.347
+17:43:58 BRFSS 2023 Random forest pi=0.20 a=1.0 Random oversampling rep=1 s=0.750 rep=0.980 actual=0.507
+17:44:00 BRFSS 2023 Random forest pi=0.20 a=1.0 SMOTE               rep=1 s=0.750 rep=0.871 actual=0.392
+17:44:02 BRFSS 2023 Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=1 s=0.750 rep=0.870 actual=0.379
+17:44:04 BRFSS 2023 Random forest pi=0.20 a=1.0 ADASYN              rep=1 s=0.762 rep=0.878 actual=0.378
+17:44:05 BRFSS 2023 Random forest pi=0.20 a=0.5 Random oversampling rep=2 s=0.500 rep=0.862 actual=0.433
+17:44:06 BRFSS 2023 Random forest pi=0.20 a=0.5 SMOTE               rep=2 s=0.500 rep=0.716 actual=0.358
+17:44:07 BRFSS 2023 Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=2 s=0.500 rep=0.718 actual=0.363
+17:44:09 BRFSS 2023 Random forest pi=0.20 a=0.5 ADASYN              rep=2 s=0.518 rep=0.726 actual=0.356
+17:44:10 BRFSS 2023 Random forest pi=0.20 a=1.0 Random oversampling rep=2 s=0.750 rep=0.977 actual=0.510
+17:44:12 BRFSS 2023 Random forest pi=0.20 a=1.0 SMOTE               rep=2 s=0.750 rep=0.877 actual=0.395
+17:44:14 BRFSS 2023 Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=2 s=0.750 rep=0.880 actual=0.384
+17:44:16 BRFSS 2023 Random forest pi=0.20 a=1.0 ADASYN              rep=2 s=0.761 rep=0.884 actual=0.377
+17:44:16 Kaggle XGBoost       pi=0.02 a=0.5 Random oversampling rep=0 s=0.959 rep=1.000 actual=0.040
+17:44:16 Kaggle Random forest pi=0.02 a=0.5 Random oversampling rep=0 s=0.959 rep=1.000 actual=0.000
+17:44:16 Kaggle XGBoost       pi=0.02 a=0.5 SMOTE               rep=0 s=0.959 rep=0.989 actual=0.060
+17:44:17 Kaggle Random forest pi=0.02 a=0.5 SMOTE               rep=0 s=0.959 rep=0.989 actual=0.040
+17:44:17 Kaggle XGBoost       pi=0.02 a=0.5 Borderline-SMOTE    rep=0 s=0.959 rep=0.977 actual=0.080
+17:44:17 Kaggle Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=0 s=0.959 rep=0.966 actual=0.040
+17:44:17 Kaggle XGBoost       pi=0.02 a=0.5 ADASYN              rep=0 s=0.959 rep=0.989 actual=0.060
+17:44:17 Kaggle Random forest pi=0.02 a=0.5 ADASYN              rep=0 s=0.959 rep=0.989 actual=0.060
+17:44:18 Kaggle XGBoost       pi=0.02 a=1.0 Random oversampling rep=0 s=0.980 rep=1.000 actual=0.020
+17:44:18 Kaggle Random forest pi=0.02 a=1.0 Random oversampling rep=0 s=0.980 rep=1.000 actual=0.000
+17:44:18 Kaggle XGBoost       pi=0.02 a=1.0 SMOTE               rep=0 s=0.980 rep=0.989 actual=0.020
+17:44:18 Kaggle Random forest pi=0.02 a=1.0 SMOTE               rep=0 s=0.980 rep=0.983 actual=0.000
+17:44:18 Kaggle XGBoost       pi=0.02 a=1.0 Borderline-SMOTE    rep=0 s=0.980 rep=0.989 actual=0.060
+17:44:19 Kaggle Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=0 s=0.980 rep=0.983 actual=0.040
+17:44:19 Kaggle XGBoost       pi=0.02 a=1.0 ADASYN              rep=0 s=0.980 rep=0.989 actual=0.040
+17:44:19 Kaggle Random forest pi=0.02 a=1.0 ADASYN              rep=0 s=0.980 rep=0.978 actual=0.040
+17:44:19 Kaggle XGBoost       pi=0.02 a=0.5 Random oversampling rep=1 s=0.959 rep=1.000 actual=0.080
+17:44:19 Kaggle Random forest pi=0.02 a=0.5 Random oversampling rep=1 s=0.959 rep=1.000 actual=0.000
+17:44:19 Kaggle XGBoost       pi=0.02 a=0.5 SMOTE               rep=1 s=0.959 rep=0.955 actual=0.000
+17:44:20 Kaggle Random forest pi=0.02 a=0.5 SMOTE               rep=1 s=0.959 rep=0.966 actual=0.000
+17:44:20 Kaggle XGBoost       pi=0.02 a=0.5 Borderline-SMOTE    rep=1 s=0.959 rep=0.920 actual=0.020
+17:44:20 Kaggle Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=1 s=0.959 rep=0.932 actual=0.000
+17:44:20 Kaggle XGBoost       pi=0.02 a=0.5 ADASYN              rep=1 s=0.959 rep=0.966 actual=0.000
+17:44:20 Kaggle Random forest pi=0.02 a=0.5 ADASYN              rep=1 s=0.959 rep=0.977 actual=0.000
+17:44:20 Kaggle XGBoost       pi=0.02 a=1.0 Random oversampling rep=1 s=0.980 rep=1.000 actual=0.080
+17:44:21 Kaggle Random forest pi=0.02 a=1.0 Random oversampling rep=1 s=0.980 rep=1.000 actual=0.000
+17:44:21 Kaggle XGBoost       pi=0.02 a=1.0 SMOTE               rep=1 s=0.980 rep=0.977 actual=0.020
+17:44:21 Kaggle Random forest pi=0.02 a=1.0 SMOTE               rep=1 s=0.980 rep=0.977 actual=0.000
+17:44:21 Kaggle XGBoost       pi=0.02 a=1.0 Borderline-SMOTE    rep=1 s=0.980 rep=0.972 actual=0.020
+17:44:21 Kaggle Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=1 s=0.980 rep=0.966 actual=0.000
+17:44:22 Kaggle XGBoost       pi=0.02 a=1.0 ADASYN              rep=1 s=0.980 rep=0.983 actual=0.000
+17:44:22 Kaggle Random forest pi=0.02 a=1.0 ADASYN              rep=1 s=0.980 rep=0.983 actual=0.000
+17:44:22 Kaggle XGBoost       pi=0.02 a=0.5 Random oversampling rep=2 s=0.959 rep=1.000 actual=0.060
+17:44:22 Kaggle Random forest pi=0.02 a=0.5 Random oversampling rep=2 s=0.959 rep=1.000 actual=0.000
+17:44:22 Kaggle XGBoost       pi=0.02 a=0.5 SMOTE               rep=2 s=0.959 rep=0.955 actual=0.020
+17:44:23 Kaggle Random forest pi=0.02 a=0.5 SMOTE               rep=2 s=0.959 rep=0.920 actual=0.000
+17:44:23 Kaggle XGBoost       pi=0.02 a=0.5 Borderline-SMOTE    rep=2 s=0.959 rep=0.920 actual=0.020
+17:44:23 Kaggle Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=2 s=0.959 rep=0.920 actual=0.000
+17:44:23 Kaggle XGBoost       pi=0.02 a=0.5 ADASYN              rep=2 s=0.959 rep=0.932 actual=0.040
+17:44:23 Kaggle Random forest pi=0.02 a=0.5 ADASYN              rep=2 s=0.959 rep=0.932 actual=0.020
+17:44:23 Kaggle XGBoost       pi=0.02 a=1.0 Random oversampling rep=2 s=0.980 rep=1.000 actual=0.080
+17:44:24 Kaggle Random forest pi=0.02 a=1.0 Random oversampling rep=2 s=0.980 rep=1.000 actual=0.000
+17:44:24 Kaggle XGBoost       pi=0.02 a=1.0 SMOTE               rep=2 s=0.980 rep=0.966 actual=0.020
+17:44:24 Kaggle Random forest pi=0.02 a=1.0 SMOTE               rep=2 s=0.980 rep=0.949 actual=0.000
+17:44:24 Kaggle XGBoost       pi=0.02 a=1.0 Borderline-SMOTE    rep=2 s=0.980 rep=0.966 actual=0.000
+17:44:24 Kaggle Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=2 s=0.980 rep=0.949 actual=0.000
+17:44:24 Kaggle XGBoost       pi=0.02 a=1.0 ADASYN              rep=2 s=0.980 rep=0.972 actual=0.060
+17:44:25 Kaggle Random forest pi=0.02 a=1.0 ADASYN              rep=2 s=0.980 rep=0.960 actual=0.000
+17:44:25 Kaggle XGBoost       pi=0.02 a=0.5 Random oversampling rep=3 s=0.959 rep=1.000 actual=0.040
+17:44:25 Kaggle Random forest pi=0.02 a=0.5 Random oversampling rep=3 s=0.959 rep=1.000 actual=0.020
+17:44:25 Kaggle XGBoost       pi=0.02 a=0.5 SMOTE               rep=3 s=0.959 rep=1.000 actual=0.040
+17:44:25 Kaggle Random forest pi=0.02 a=0.5 SMOTE               rep=3 s=0.959 rep=0.989 actual=0.000
+17:44:26 Kaggle XGBoost       pi=0.02 a=0.5 Borderline-SMOTE    rep=3 s=0.959 rep=0.955 actual=0.020
+17:44:26 Kaggle Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=3 s=0.959 rep=0.943 actual=0.020
+17:44:26 Kaggle XGBoost       pi=0.02 a=0.5 ADASYN              rep=3 s=0.959 rep=1.000 actual=0.020
+17:44:26 Kaggle Random forest pi=0.02 a=0.5 ADASYN              rep=3 s=0.959 rep=0.989 actual=0.020
+17:44:26 Kaggle XGBoost       pi=0.02 a=1.0 Random oversampling rep=3 s=0.980 rep=1.000 actual=0.060
+17:44:26 Kaggle Random forest pi=0.02 a=1.0 Random oversampling rep=3 s=0.980 rep=1.000 actual=0.020
+17:44:27 Kaggle XGBoost       pi=0.02 a=1.0 SMOTE               rep=3 s=0.980 rep=0.994 actual=0.040
+17:44:27 Kaggle Random forest pi=0.02 a=1.0 SMOTE               rep=3 s=0.980 rep=0.989 actual=0.040
+17:44:27 Kaggle XGBoost       pi=0.02 a=1.0 Borderline-SMOTE    rep=3 s=0.980 rep=0.983 actual=0.020
+17:44:27 Kaggle Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=3 s=0.980 rep=0.983 actual=0.020
+17:44:27 Kaggle XGBoost       pi=0.02 a=1.0 ADASYN              rep=3 s=0.980 rep=0.994 actual=0.100
+17:44:28 Kaggle Random forest pi=0.02 a=1.0 ADASYN              rep=3 s=0.980 rep=0.994 actual=0.020
+17:44:28 Kaggle XGBoost       pi=0.02 a=0.5 Random oversampling rep=4 s=0.959 rep=1.000 actual=0.040
+17:44:28 Kaggle Random forest pi=0.02 a=0.5 Random oversampling rep=4 s=0.959 rep=1.000 actual=0.000
+17:44:28 Kaggle XGBoost       pi=0.02 a=0.5 SMOTE               rep=4 s=0.959 rep=0.989 actual=0.040
+17:44:28 Kaggle Random forest pi=0.02 a=0.5 SMOTE               rep=4 s=0.959 rep=0.977 actual=0.020
+17:44:28 Kaggle XGBoost       pi=0.02 a=0.5 Borderline-SMOTE    rep=4 s=0.959 rep=0.966 actual=0.020
+17:44:29 Kaggle Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=4 s=0.959 rep=0.966 actual=0.020
+17:44:29 Kaggle XGBoost       pi=0.02 a=0.5 ADASYN              rep=4 s=0.959 rep=0.966 actual=0.020
+17:44:29 Kaggle Random forest pi=0.02 a=0.5 ADASYN              rep=4 s=0.959 rep=0.977 actual=0.020
+17:44:29 Kaggle XGBoost       pi=0.02 a=1.0 Random oversampling rep=4 s=0.980 rep=1.000 actual=0.060
+17:44:29 Kaggle Random forest pi=0.02 a=1.0 Random oversampling rep=4 s=0.980 rep=1.000 actual=0.000
+17:44:29 Kaggle XGBoost       pi=0.02 a=1.0 SMOTE               rep=4 s=0.980 rep=0.989 actual=0.040
+17:44:30 Kaggle Random forest pi=0.02 a=1.0 SMOTE               rep=4 s=0.980 rep=0.983 actual=0.000
+17:44:30 Kaggle XGBoost       pi=0.02 a=1.0 Borderline-SMOTE    rep=4 s=0.980 rep=0.977 actual=0.040
+17:44:30 Kaggle Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=4 s=0.980 rep=0.977 actual=0.040
+17:44:30 Kaggle XGBoost       pi=0.02 a=1.0 ADASYN              rep=4 s=0.979 rep=0.989 actual=0.040
+17:44:30 Kaggle Random forest pi=0.02 a=1.0 ADASYN              rep=4 s=0.979 rep=0.983 actual=0.000
+17:44:31 Kaggle XGBoost       pi=0.02 a=0.5 Random oversampling rep=5 s=0.959 rep=1.000 actual=0.060
+17:44:31 Kaggle Random forest pi=0.02 a=0.5 Random oversampling rep=5 s=0.959 rep=1.000 actual=0.000
+17:44:31 Kaggle XGBoost       pi=0.02 a=0.5 SMOTE               rep=5 s=0.959 rep=0.955 actual=0.040
+17:44:31 Kaggle Random forest pi=0.02 a=0.5 SMOTE               rep=5 s=0.959 rep=0.977 actual=0.020
+17:44:31 Kaggle XGBoost       pi=0.02 a=0.5 Borderline-SMOTE    rep=5 s=0.959 rep=0.989 actual=0.020
+17:44:32 Kaggle Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=5 s=0.959 rep=0.977 actual=0.000
+17:44:32 Kaggle XGBoost       pi=0.02 a=0.5 ADASYN              rep=5 s=0.960 rep=0.966 actual=0.020
+17:44:32 Kaggle Random forest pi=0.02 a=0.5 ADASYN              rep=5 s=0.960 rep=0.978 actual=0.000
+17:44:32 Kaggle XGBoost       pi=0.02 a=1.0 Random oversampling rep=5 s=0.980 rep=1.000 actual=0.040
+17:44:32 Kaggle Random forest pi=0.02 a=1.0 Random oversampling rep=5 s=0.980 rep=1.000 actual=0.000
+17:44:32 Kaggle XGBoost       pi=0.02 a=1.0 SMOTE               rep=5 s=0.980 rep=0.994 actual=0.020
+17:44:33 Kaggle Random forest pi=0.02 a=1.0 SMOTE               rep=5 s=0.980 rep=0.989 actual=0.020
+17:44:33 Kaggle XGBoost       pi=0.02 a=1.0 Borderline-SMOTE    rep=5 s=0.980 rep=0.989 actual=0.000
+17:44:33 Kaggle Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=5 s=0.980 rep=0.994 actual=0.000
+17:44:33 Kaggle XGBoost       pi=0.02 a=1.0 ADASYN              rep=5 s=0.980 rep=0.994 actual=0.040
+17:44:33 Kaggle Random forest pi=0.02 a=1.0 ADASYN              rep=5 s=0.980 rep=0.983 actual=0.020
+17:44:34 Kaggle XGBoost       pi=0.02 a=0.5 Random oversampling rep=6 s=0.959 rep=1.000 actual=0.060
+17:44:34 Kaggle Random forest pi=0.02 a=0.5 Random oversampling rep=6 s=0.959 rep=1.000 actual=0.020
+17:44:34 Kaggle XGBoost       pi=0.02 a=0.5 SMOTE               rep=6 s=0.959 rep=0.966 actual=0.040
+17:44:34 Kaggle Random forest pi=0.02 a=0.5 SMOTE               rep=6 s=0.959 rep=0.966 actual=0.020
+17:44:34 Kaggle XGBoost       pi=0.02 a=0.5 Borderline-SMOTE    rep=6 s=0.959 rep=0.955 actual=0.060
+17:44:35 Kaggle Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=6 s=0.959 rep=0.943 actual=0.020
+17:44:35 Kaggle XGBoost       pi=0.02 a=0.5 ADASYN              rep=6 s=0.960 rep=0.955 actual=0.040
+17:44:35 Kaggle Random forest pi=0.02 a=0.5 ADASYN              rep=6 s=0.960 rep=0.955 actual=0.020
+17:44:35 Kaggle XGBoost       pi=0.02 a=1.0 Random oversampling rep=6 s=0.980 rep=1.000 actual=0.080
+17:44:35 Kaggle Random forest pi=0.02 a=1.0 Random oversampling rep=6 s=0.980 rep=1.000 actual=0.020
+17:44:35 Kaggle XGBoost       pi=0.02 a=1.0 SMOTE               rep=6 s=0.980 rep=0.983 actual=0.040
+17:44:36 Kaggle Random forest pi=0.02 a=1.0 SMOTE               rep=6 s=0.980 rep=0.972 actual=0.000
+17:44:36 Kaggle XGBoost       pi=0.02 a=1.0 Borderline-SMOTE    rep=6 s=0.980 rep=0.983 actual=0.080
+17:44:36 Kaggle Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=6 s=0.980 rep=0.983 actual=0.020
+17:44:36 Kaggle XGBoost       pi=0.02 a=1.0 ADASYN              rep=6 s=0.980 rep=0.983 actual=0.060
+17:44:36 Kaggle Random forest pi=0.02 a=1.0 ADASYN              rep=6 s=0.980 rep=0.983 actual=0.000
+17:44:36 Kaggle XGBoost       pi=0.02 a=0.5 Random oversampling rep=7 s=0.959 rep=1.000 actual=0.120
+17:44:37 Kaggle Random forest pi=0.02 a=0.5 Random oversampling rep=7 s=0.959 rep=1.000 actual=0.020
+17:44:37 Kaggle XGBoost       pi=0.02 a=0.5 SMOTE               rep=7 s=0.959 rep=0.966 actual=0.080
+17:44:37 Kaggle Random forest pi=0.02 a=0.5 SMOTE               rep=7 s=0.959 rep=0.943 actual=0.040
+17:44:37 Kaggle XGBoost       pi=0.02 a=0.5 Borderline-SMOTE    rep=7 s=0.959 rep=0.955 actual=0.100
+17:44:37 Kaggle Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=7 s=0.959 rep=0.943 actual=0.020
+17:44:38 Kaggle XGBoost       pi=0.02 a=0.5 ADASYN              rep=7 s=0.960 rep=0.944 actual=0.080
+17:44:38 Kaggle Random forest pi=0.02 a=0.5 ADASYN              rep=7 s=0.960 rep=0.956 actual=0.040
+17:44:38 Kaggle XGBoost       pi=0.02 a=1.0 Random oversampling rep=7 s=0.980 rep=1.000 actual=0.100
+17:44:38 Kaggle Random forest pi=0.02 a=1.0 Random oversampling rep=7 s=0.980 rep=1.000 actual=0.000
+17:44:38 Kaggle XGBoost       pi=0.02 a=1.0 SMOTE               rep=7 s=0.980 rep=1.000 actual=0.060
+17:44:39 Kaggle Random forest pi=0.02 a=1.0 SMOTE               rep=7 s=0.980 rep=0.994 actual=0.040
+17:44:39 Kaggle XGBoost       pi=0.02 a=1.0 Borderline-SMOTE    rep=7 s=0.980 rep=0.994 actual=0.060
+17:44:39 Kaggle Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=7 s=0.980 rep=0.989 actual=0.020
+17:44:39 Kaggle XGBoost       pi=0.02 a=1.0 ADASYN              rep=7 s=0.979 rep=0.983 actual=0.100
+17:44:39 Kaggle Random forest pi=0.02 a=1.0 ADASYN              rep=7 s=0.979 rep=0.994 actual=0.040
+17:44:39 Kaggle XGBoost       pi=0.02 a=0.5 Random oversampling rep=8 s=0.959 rep=1.000 actual=0.040
+17:44:40 Kaggle Random forest pi=0.02 a=0.5 Random oversampling rep=8 s=0.959 rep=1.000 actual=0.000
+17:44:40 Kaggle XGBoost       pi=0.02 a=0.5 SMOTE               rep=8 s=0.959 rep=0.955 actual=0.040
+17:44:40 Kaggle Random forest pi=0.02 a=0.5 SMOTE               rep=8 s=0.959 rep=0.966 actual=0.020
+17:44:40 Kaggle XGBoost       pi=0.02 a=0.5 Borderline-SMOTE    rep=8 s=0.959 rep=0.955 actual=0.040
+17:44:40 Kaggle Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=8 s=0.959 rep=0.955 actual=0.040
+17:44:40 Kaggle XGBoost       pi=0.02 a=0.5 ADASYN              rep=8 s=0.960 rep=0.967 actual=0.020
+17:44:41 Kaggle Random forest pi=0.02 a=0.5 ADASYN              rep=8 s=0.960 rep=0.956 actual=0.000
+17:44:41 Kaggle XGBoost       pi=0.02 a=1.0 Random oversampling rep=8 s=0.980 rep=1.000 actual=0.080
+17:44:41 Kaggle Random forest pi=0.02 a=1.0 Random oversampling rep=8 s=0.980 rep=1.000 actual=0.000
+17:44:41 Kaggle XGBoost       pi=0.02 a=1.0 SMOTE               rep=8 s=0.980 rep=0.983 actual=0.020
+17:44:41 Kaggle Random forest pi=0.02 a=1.0 SMOTE               rep=8 s=0.980 rep=0.983 actual=0.000
+17:44:41 Kaggle XGBoost       pi=0.02 a=1.0 Borderline-SMOTE    rep=8 s=0.980 rep=0.972 actual=0.020
+17:44:42 Kaggle Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=8 s=0.980 rep=0.966 actual=0.020
+17:44:42 Kaggle XGBoost       pi=0.02 a=1.0 ADASYN              rep=8 s=0.980 rep=0.983 actual=0.020
+17:44:42 Kaggle Random forest pi=0.02 a=1.0 ADASYN              rep=8 s=0.980 rep=0.983 actual=0.000
+17:44:42 Kaggle XGBoost       pi=0.02 a=0.5 Random oversampling rep=9 s=0.959 rep=1.000 actual=0.060
+17:44:43 Kaggle Random forest pi=0.02 a=0.5 Random oversampling rep=9 s=0.959 rep=1.000 actual=0.040
+17:44:43 Kaggle XGBoost       pi=0.02 a=0.5 SMOTE               rep=9 s=0.959 rep=0.977 actual=0.040
+17:44:43 Kaggle Random forest pi=0.02 a=0.5 SMOTE               rep=9 s=0.959 rep=0.966 actual=0.020
+17:44:43 Kaggle XGBoost       pi=0.02 a=0.5 Borderline-SMOTE    rep=9 s=0.959 rep=0.955 actual=0.040
+17:44:43 Kaggle Random forest pi=0.02 a=0.5 Borderline-SMOTE    rep=9 s=0.959 rep=0.955 actual=0.020
+17:44:43 Kaggle XGBoost       pi=0.02 a=0.5 ADASYN              rep=9 s=0.959 rep=0.966 actual=0.080
+17:44:44 Kaggle Random forest pi=0.02 a=0.5 ADASYN              rep=9 s=0.959 rep=0.966 actual=0.040
+17:44:44 Kaggle XGBoost       pi=0.02 a=1.0 Random oversampling rep=9 s=0.980 rep=1.000 actual=0.020
+17:44:44 Kaggle Random forest pi=0.02 a=1.0 Random oversampling rep=9 s=0.980 rep=1.000 actual=0.020
+17:44:44 Kaggle XGBoost       pi=0.02 a=1.0 SMOTE               rep=9 s=0.980 rep=0.989 actual=0.040
+17:44:44 Kaggle Random forest pi=0.02 a=1.0 SMOTE               rep=9 s=0.980 rep=0.983 actual=0.040
+17:44:44 Kaggle XGBoost       pi=0.02 a=1.0 Borderline-SMOTE    rep=9 s=0.980 rep=0.983 actual=0.040
+17:44:45 Kaggle Random forest pi=0.02 a=1.0 Borderline-SMOTE    rep=9 s=0.980 rep=0.977 actual=0.020
+17:44:45 Kaggle XGBoost       pi=0.02 a=1.0 ADASYN              rep=9 s=0.980 rep=0.994 actual=0.080
+17:44:45 Kaggle Random forest pi=0.02 a=1.0 ADASYN              rep=9 s=0.980 rep=0.983 actual=0.060
+17:44:45 Kaggle XGBoost       pi=0.05 a=0.5 Random oversampling rep=0 s=0.895 rep=1.000 actual=0.160
+17:44:45 Kaggle Random forest pi=0.05 a=0.5 Random oversampling rep=0 s=0.895 rep=1.000 actual=0.080
+17:44:45 Kaggle XGBoost       pi=0.05 a=0.5 SMOTE               rep=0 s=0.895 rep=0.930 actual=0.140
+17:44:46 Kaggle Random forest pi=0.05 a=0.5 SMOTE               rep=0 s=0.895 rep=0.907 actual=0.080
+17:44:46 Kaggle XGBoost       pi=0.05 a=0.5 Borderline-SMOTE    rep=0 s=0.895 rep=0.942 actual=0.200
+17:44:46 Kaggle Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=0 s=0.895 rep=0.930 actual=0.100
+17:44:46 Kaggle XGBoost       pi=0.05 a=0.5 ADASYN              rep=0 s=0.898 rep=0.943 actual=0.160
+17:44:47 Kaggle Random forest pi=0.05 a=0.5 ADASYN              rep=0 s=0.898 rep=0.955 actual=0.100
+17:44:47 Kaggle XGBoost       pi=0.05 a=1.0 Random oversampling rep=0 s=0.947 rep=1.000 actual=0.160
+17:44:47 Kaggle Random forest pi=0.05 a=1.0 Random oversampling rep=0 s=0.947 rep=1.000 actual=0.080
+17:44:47 Kaggle XGBoost       pi=0.05 a=1.0 SMOTE               rep=0 s=0.947 rep=0.977 actual=0.120
+17:44:47 Kaggle Random forest pi=0.05 a=1.0 SMOTE               rep=0 s=0.947 rep=0.977 actual=0.120
+17:44:47 Kaggle XGBoost       pi=0.05 a=1.0 Borderline-SMOTE    rep=0 s=0.947 rep=0.982 actual=0.160
+17:44:48 Kaggle Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=0 s=0.947 rep=0.977 actual=0.100
+17:44:48 Kaggle XGBoost       pi=0.05 a=1.0 ADASYN              rep=0 s=0.946 rep=0.952 actual=0.180
+17:44:48 Kaggle Random forest pi=0.05 a=1.0 ADASYN              rep=0 s=0.946 rep=0.970 actual=0.120
+17:44:48 Kaggle XGBoost       pi=0.05 a=0.5 Random oversampling rep=1 s=0.895 rep=1.000 actual=0.120
+17:44:48 Kaggle Random forest pi=0.05 a=0.5 Random oversampling rep=1 s=0.895 rep=1.000 actual=0.080
+17:44:48 Kaggle XGBoost       pi=0.05 a=0.5 SMOTE               rep=1 s=0.895 rep=0.860 actual=0.040
+17:44:49 Kaggle Random forest pi=0.05 a=0.5 SMOTE               rep=1 s=0.895 rep=0.919 actual=0.100
+17:44:49 Kaggle XGBoost       pi=0.05 a=0.5 Borderline-SMOTE    rep=1 s=0.895 rep=0.884 actual=0.120
+17:44:49 Kaggle Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=1 s=0.895 rep=0.907 actual=0.120
+17:44:49 Kaggle XGBoost       pi=0.05 a=0.5 ADASYN              rep=1 s=0.892 rep=0.845 actual=0.080
+17:44:50 Kaggle Random forest pi=0.05 a=0.5 ADASYN              rep=1 s=0.892 rep=0.869 actual=0.040
+17:44:50 Kaggle XGBoost       pi=0.05 a=1.0 Random oversampling rep=1 s=0.947 rep=1.000 actual=0.120
+17:44:50 Kaggle Random forest pi=0.05 a=1.0 Random oversampling rep=1 s=0.947 rep=1.000 actual=0.060
+17:44:50 Kaggle XGBoost       pi=0.05 a=1.0 SMOTE               rep=1 s=0.947 rep=0.953 actual=0.100
+17:44:50 Kaggle Random forest pi=0.05 a=1.0 SMOTE               rep=1 s=0.947 rep=0.953 actual=0.060
+17:44:50 Kaggle XGBoost       pi=0.05 a=1.0 Borderline-SMOTE    rep=1 s=0.947 rep=0.947 actual=0.120
+17:44:51 Kaggle Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=1 s=0.947 rep=0.942 actual=0.040
+17:44:51 Kaggle XGBoost       pi=0.05 a=1.0 ADASYN              rep=1 s=0.948 rep=0.937 actual=0.100
+17:44:51 Kaggle Random forest pi=0.05 a=1.0 ADASYN              rep=1 s=0.948 rep=0.954 actual=0.060
+17:44:51 Kaggle XGBoost       pi=0.05 a=0.5 Random oversampling rep=2 s=0.895 rep=1.000 actual=0.160
+17:44:51 Kaggle Random forest pi=0.05 a=0.5 Random oversampling rep=2 s=0.895 rep=1.000 actual=0.080
+17:44:51 Kaggle XGBoost       pi=0.05 a=0.5 SMOTE               rep=2 s=0.895 rep=0.895 actual=0.060
+17:44:52 Kaggle Random forest pi=0.05 a=0.5 SMOTE               rep=2 s=0.895 rep=0.930 actual=0.060
+17:44:52 Kaggle XGBoost       pi=0.05 a=0.5 Borderline-SMOTE    rep=2 s=0.895 rep=0.930 actual=0.080
+17:44:52 Kaggle Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=2 s=0.895 rep=0.907 actual=0.100
+17:44:52 Kaggle XGBoost       pi=0.05 a=0.5 ADASYN              rep=2 s=0.891 rep=0.904 actual=0.080
+17:44:53 Kaggle Random forest pi=0.05 a=0.5 ADASYN              rep=2 s=0.891 rep=0.892 actual=0.040
+17:44:53 Kaggle XGBoost       pi=0.05 a=1.0 Random oversampling rep=2 s=0.947 rep=1.000 actual=0.200
+17:44:53 Kaggle Random forest pi=0.05 a=1.0 Random oversampling rep=2 s=0.947 rep=1.000 actual=0.080
+17:44:53 Kaggle XGBoost       pi=0.05 a=1.0 SMOTE               rep=2 s=0.947 rep=0.965 actual=0.160
+17:44:53 Kaggle Random forest pi=0.05 a=1.0 SMOTE               rep=2 s=0.947 rep=0.971 actual=0.080
+17:44:53 Kaggle XGBoost       pi=0.05 a=1.0 Borderline-SMOTE    rep=2 s=0.947 rep=0.965 actual=0.140
+17:44:54 Kaggle Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=2 s=0.947 rep=0.965 actual=0.100
+17:44:54 Kaggle XGBoost       pi=0.05 a=1.0 ADASYN              rep=2 s=0.948 rep=0.966 actual=0.100
+17:44:54 Kaggle Random forest pi=0.05 a=1.0 ADASYN              rep=2 s=0.948 rep=0.977 actual=0.060
+17:44:54 Kaggle XGBoost       pi=0.05 a=0.5 Random oversampling rep=3 s=0.895 rep=1.000 actual=0.140
+17:44:54 Kaggle Random forest pi=0.05 a=0.5 Random oversampling rep=3 s=0.895 rep=1.000 actual=0.060
+17:44:54 Kaggle XGBoost       pi=0.05 a=0.5 SMOTE               rep=3 s=0.895 rep=0.849 actual=0.120
+17:44:55 Kaggle Random forest pi=0.05 a=0.5 SMOTE               rep=3 s=0.895 rep=0.860 actual=0.080
+17:44:55 Kaggle XGBoost       pi=0.05 a=0.5 Borderline-SMOTE    rep=3 s=0.895 rep=0.860 actual=0.120
+17:44:55 Kaggle Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=3 s=0.895 rep=0.860 actual=0.080
+17:44:55 Kaggle XGBoost       pi=0.05 a=0.5 ADASYN              rep=3 s=0.899 rep=0.900 actual=0.100
+17:44:55 Kaggle Random forest pi=0.05 a=0.5 ADASYN              rep=3 s=0.899 rep=0.889 actual=0.060
+17:44:56 Kaggle XGBoost       pi=0.05 a=1.0 Random oversampling rep=3 s=0.947 rep=1.000 actual=0.140
+17:44:56 Kaggle Random forest pi=0.05 a=1.0 Random oversampling rep=3 s=0.947 rep=1.000 actual=0.080
+17:44:56 Kaggle XGBoost       pi=0.05 a=1.0 SMOTE               rep=3 s=0.947 rep=0.959 actual=0.120
+17:44:56 Kaggle Random forest pi=0.05 a=1.0 SMOTE               rep=3 s=0.947 rep=0.953 actual=0.100
+17:44:56 Kaggle XGBoost       pi=0.05 a=1.0 Borderline-SMOTE    rep=3 s=0.947 rep=0.953 actual=0.080
+17:44:57 Kaggle Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=3 s=0.947 rep=0.947 actual=0.080
+17:44:57 Kaggle XGBoost       pi=0.05 a=1.0 ADASYN              rep=3 s=0.947 rep=0.971 actual=0.100
+17:44:57 Kaggle Random forest pi=0.05 a=1.0 ADASYN              rep=3 s=0.947 rep=0.959 actual=0.080
+17:44:57 Kaggle XGBoost       pi=0.05 a=0.5 Random oversampling rep=4 s=0.895 rep=1.000 actual=0.180
+17:44:57 Kaggle Random forest pi=0.05 a=0.5 Random oversampling rep=4 s=0.895 rep=1.000 actual=0.060
+17:44:57 Kaggle XGBoost       pi=0.05 a=0.5 SMOTE               rep=4 s=0.895 rep=0.837 actual=0.060
+17:44:58 Kaggle Random forest pi=0.05 a=0.5 SMOTE               rep=4 s=0.895 rep=0.860 actual=0.100
+17:44:58 Kaggle XGBoost       pi=0.05 a=0.5 Borderline-SMOTE    rep=4 s=0.895 rep=0.860 actual=0.160
+17:44:58 Kaggle Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=4 s=0.895 rep=0.837 actual=0.100
+17:44:58 Kaggle XGBoost       pi=0.05 a=0.5 ADASYN              rep=4 s=0.891 rep=0.817 actual=0.100
+17:44:58 Kaggle Random forest pi=0.05 a=0.5 ADASYN              rep=4 s=0.891 rep=0.890 actual=0.080
+17:44:59 Kaggle XGBoost       pi=0.05 a=1.0 Random oversampling rep=4 s=0.947 rep=1.000 actual=0.200
+17:44:59 Kaggle Random forest pi=0.05 a=1.0 Random oversampling rep=4 s=0.947 rep=1.000 actual=0.080
+17:44:59 Kaggle XGBoost       pi=0.05 a=1.0 SMOTE               rep=4 s=0.947 rep=0.942 actual=0.180
+17:44:59 Kaggle Random forest pi=0.05 a=1.0 SMOTE               rep=4 s=0.947 rep=0.942 actual=0.160
+17:44:59 Kaggle XGBoost       pi=0.05 a=1.0 Borderline-SMOTE    rep=4 s=0.947 rep=0.947 actual=0.160
+17:45:00 Kaggle Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=4 s=0.947 rep=0.942 actual=0.160
+17:45:00 Kaggle XGBoost       pi=0.05 a=1.0 ADASYN              rep=4 s=0.948 rep=0.931 actual=0.140
+17:45:00 Kaggle Random forest pi=0.05 a=1.0 ADASYN              rep=4 s=0.948 rep=0.931 actual=0.180
+17:45:00 Kaggle XGBoost       pi=0.05 a=0.5 Random oversampling rep=5 s=0.895 rep=1.000 actual=0.180
+17:45:00 Kaggle Random forest pi=0.05 a=0.5 Random oversampling rep=5 s=0.895 rep=1.000 actual=0.120
+17:45:00 Kaggle XGBoost       pi=0.05 a=0.5 SMOTE               rep=5 s=0.895 rep=0.953 actual=0.120
+17:45:01 Kaggle Random forest pi=0.05 a=0.5 SMOTE               rep=5 s=0.895 rep=0.942 actual=0.120
+17:45:01 Kaggle XGBoost       pi=0.05 a=0.5 Borderline-SMOTE    rep=5 s=0.895 rep=0.930 actual=0.180
+17:45:01 Kaggle Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=5 s=0.895 rep=0.907 actual=0.140
+17:45:01 Kaggle XGBoost       pi=0.05 a=0.5 ADASYN              rep=5 s=0.898 rep=0.920 actual=0.140
+17:45:01 Kaggle Random forest pi=0.05 a=0.5 ADASYN              rep=5 s=0.898 rep=0.920 actual=0.140
+17:45:02 Kaggle XGBoost       pi=0.05 a=1.0 Random oversampling rep=5 s=0.947 rep=1.000 actual=0.200
+17:45:02 Kaggle Random forest pi=0.05 a=1.0 Random oversampling rep=5 s=0.947 rep=1.000 actual=0.120
+17:45:02 Kaggle XGBoost       pi=0.05 a=1.0 SMOTE               rep=5 s=0.947 rep=0.977 actual=0.160
+17:45:02 Kaggle Random forest pi=0.05 a=1.0 SMOTE               rep=5 s=0.947 rep=0.977 actual=0.140
+17:45:02 Kaggle XGBoost       pi=0.05 a=1.0 Borderline-SMOTE    rep=5 s=0.947 rep=0.971 actual=0.160
+17:45:03 Kaggle Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=5 s=0.947 rep=0.971 actual=0.120
+17:45:03 Kaggle XGBoost       pi=0.05 a=1.0 ADASYN              rep=5 s=0.946 rep=0.976 actual=0.140
+17:45:03 Kaggle Random forest pi=0.05 a=1.0 ADASYN              rep=5 s=0.946 rep=0.970 actual=0.160
+17:45:03 Kaggle XGBoost       pi=0.05 a=0.5 Random oversampling rep=6 s=0.895 rep=1.000 actual=0.120
+17:45:03 Kaggle Random forest pi=0.05 a=0.5 Random oversampling rep=6 s=0.895 rep=1.000 actual=0.120
+17:45:03 Kaggle XGBoost       pi=0.05 a=0.5 SMOTE               rep=6 s=0.895 rep=0.872 actual=0.180
+17:45:04 Kaggle Random forest pi=0.05 a=0.5 SMOTE               rep=6 s=0.895 rep=0.919 actual=0.180
+17:45:04 Kaggle XGBoost       pi=0.05 a=0.5 Borderline-SMOTE    rep=6 s=0.895 rep=0.919 actual=0.200
+17:45:04 Kaggle Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=6 s=0.895 rep=0.930 actual=0.140
+17:45:04 Kaggle XGBoost       pi=0.05 a=0.5 ADASYN              rep=6 s=0.894 rep=0.906 actual=0.140
+17:45:04 Kaggle Random forest pi=0.05 a=0.5 ADASYN              rep=6 s=0.894 rep=0.941 actual=0.120
+17:45:05 Kaggle XGBoost       pi=0.05 a=1.0 Random oversampling rep=6 s=0.947 rep=1.000 actual=0.160
+17:45:05 Kaggle Random forest pi=0.05 a=1.0 Random oversampling rep=6 s=0.947 rep=1.000 actual=0.140
+17:45:05 Kaggle XGBoost       pi=0.05 a=1.0 SMOTE               rep=6 s=0.947 rep=0.977 actual=0.160
+17:45:05 Kaggle Random forest pi=0.05 a=1.0 SMOTE               rep=6 s=0.947 rep=0.977 actual=0.200
+17:45:05 Kaggle XGBoost       pi=0.05 a=1.0 Borderline-SMOTE    rep=6 s=0.947 rep=0.959 actual=0.180
+17:45:06 Kaggle Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=6 s=0.947 rep=0.971 actual=0.160
+17:45:06 Kaggle XGBoost       pi=0.05 a=1.0 ADASYN              rep=6 s=0.947 rep=0.971 actual=0.220
+17:45:06 Kaggle Random forest pi=0.05 a=1.0 ADASYN              rep=6 s=0.947 rep=0.976 actual=0.180
+17:45:06 Kaggle XGBoost       pi=0.05 a=0.5 Random oversampling rep=7 s=0.895 rep=1.000 actual=0.180
+17:45:06 Kaggle Random forest pi=0.05 a=0.5 Random oversampling rep=7 s=0.895 rep=1.000 actual=0.080
+17:45:06 Kaggle XGBoost       pi=0.05 a=0.5 SMOTE               rep=7 s=0.895 rep=0.884 actual=0.120
+17:45:07 Kaggle Random forest pi=0.05 a=0.5 SMOTE               rep=7 s=0.895 rep=0.837 actual=0.120
+17:45:07 Kaggle XGBoost       pi=0.05 a=0.5 Borderline-SMOTE    rep=7 s=0.895 rep=0.872 actual=0.140
+17:45:07 Kaggle Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=7 s=0.895 rep=0.849 actual=0.060
+17:45:07 Kaggle XGBoost       pi=0.05 a=0.5 ADASYN              rep=7 s=0.899 rep=0.867 actual=0.100
+17:45:08 Kaggle Random forest pi=0.05 a=0.5 ADASYN              rep=7 s=0.899 rep=0.867 actual=0.060
+17:45:08 Kaggle XGBoost       pi=0.05 a=1.0 Random oversampling rep=7 s=0.947 rep=1.000 actual=0.220
+17:45:08 Kaggle Random forest pi=0.05 a=1.0 Random oversampling rep=7 s=0.947 rep=1.000 actual=0.080
+17:45:08 Kaggle XGBoost       pi=0.05 a=1.0 SMOTE               rep=7 s=0.947 rep=0.965 actual=0.120
+17:45:08 Kaggle Random forest pi=0.05 a=1.0 SMOTE               rep=7 s=0.947 rep=0.959 actual=0.120
+17:45:08 Kaggle XGBoost       pi=0.05 a=1.0 Borderline-SMOTE    rep=7 s=0.947 rep=0.953 actual=0.120
+17:45:09 Kaggle Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=7 s=0.947 rep=0.959 actual=0.080
+17:45:09 Kaggle XGBoost       pi=0.05 a=1.0 ADASYN              rep=7 s=0.947 rep=0.965 actual=0.100
+17:45:09 Kaggle Random forest pi=0.05 a=1.0 ADASYN              rep=7 s=0.947 rep=0.953 actual=0.120
+17:45:09 Kaggle XGBoost       pi=0.05 a=0.5 Random oversampling rep=8 s=0.895 rep=1.000 actual=0.160
+17:45:09 Kaggle Random forest pi=0.05 a=0.5 Random oversampling rep=8 s=0.895 rep=1.000 actual=0.180
+17:45:09 Kaggle XGBoost       pi=0.05 a=0.5 SMOTE               rep=8 s=0.895 rep=0.907 actual=0.140
+17:45:10 Kaggle Random forest pi=0.05 a=0.5 SMOTE               rep=8 s=0.895 rep=0.942 actual=0.120
+17:45:10 Kaggle XGBoost       pi=0.05 a=0.5 Borderline-SMOTE    rep=8 s=0.895 rep=0.930 actual=0.160
+17:45:10 Kaggle Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=8 s=0.895 rep=0.930 actual=0.140
+17:45:10 Kaggle XGBoost       pi=0.05 a=0.5 ADASYN              rep=8 s=0.898 rep=0.921 actual=0.220
+17:45:10 Kaggle Random forest pi=0.05 a=0.5 ADASYN              rep=8 s=0.898 rep=0.899 actual=0.080
+17:45:11 Kaggle XGBoost       pi=0.05 a=1.0 Random oversampling rep=8 s=0.947 rep=1.000 actual=0.260
+17:45:11 Kaggle Random forest pi=0.05 a=1.0 Random oversampling rep=8 s=0.947 rep=1.000 actual=0.120
+17:45:11 Kaggle XGBoost       pi=0.05 a=1.0 SMOTE               rep=8 s=0.947 rep=0.953 actual=0.160
+17:45:11 Kaggle Random forest pi=0.05 a=1.0 SMOTE               rep=8 s=0.947 rep=0.959 actual=0.120
+17:45:11 Kaggle XGBoost       pi=0.05 a=1.0 Borderline-SMOTE    rep=8 s=0.947 rep=0.947 actual=0.120
+17:45:12 Kaggle Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=8 s=0.947 rep=0.965 actual=0.140
+17:45:12 Kaggle XGBoost       pi=0.05 a=1.0 ADASYN              rep=8 s=0.946 rep=0.953 actual=0.120
+17:45:12 Kaggle Random forest pi=0.05 a=1.0 ADASYN              rep=8 s=0.946 rep=0.947 actual=0.080
+17:45:12 Kaggle XGBoost       pi=0.05 a=0.5 Random oversampling rep=9 s=0.895 rep=1.000 actual=0.160
+17:45:12 Kaggle Random forest pi=0.05 a=0.5 Random oversampling rep=9 s=0.895 rep=1.000 actual=0.060
+17:45:12 Kaggle XGBoost       pi=0.05 a=0.5 SMOTE               rep=9 s=0.895 rep=0.872 actual=0.140
+17:45:13 Kaggle Random forest pi=0.05 a=0.5 SMOTE               rep=9 s=0.895 rep=0.872 actual=0.080
+17:45:13 Kaggle XGBoost       pi=0.05 a=0.5 Borderline-SMOTE    rep=9 s=0.895 rep=0.907 actual=0.140
+17:45:13 Kaggle Random forest pi=0.05 a=0.5 Borderline-SMOTE    rep=9 s=0.895 rep=0.919 actual=0.060
+17:45:13 Kaggle XGBoost       pi=0.05 a=0.5 ADASYN              rep=9 s=0.898 rep=0.886 actual=0.100
+17:45:13 Kaggle Random forest pi=0.05 a=0.5 ADASYN              rep=9 s=0.898 rep=0.875 actual=0.060
+17:45:14 Kaggle XGBoost       pi=0.05 a=1.0 Random oversampling rep=9 s=0.947 rep=1.000 actual=0.120
+17:45:14 Kaggle Random forest pi=0.05 a=1.0 Random oversampling rep=9 s=0.947 rep=1.000 actual=0.060
+17:45:14 Kaggle XGBoost       pi=0.05 a=1.0 SMOTE               rep=9 s=0.947 rep=0.947 actual=0.140
+17:45:14 Kaggle Random forest pi=0.05 a=1.0 SMOTE               rep=9 s=0.947 rep=0.947 actual=0.080
+17:45:14 Kaggle XGBoost       pi=0.05 a=1.0 Borderline-SMOTE    rep=9 s=0.947 rep=0.959 actual=0.160
+17:45:15 Kaggle Random forest pi=0.05 a=1.0 Borderline-SMOTE    rep=9 s=0.947 rep=0.947 actual=0.100
+17:45:15 Kaggle XGBoost       pi=0.05 a=1.0 ADASYN              rep=9 s=0.946 rep=0.940 actual=0.160
+17:45:15 Kaggle Random forest pi=0.05 a=1.0 ADASYN              rep=9 s=0.946 rep=0.946 actual=0.060
+17:45:15 Kaggle XGBoost       pi=0.10 a=0.5 Random oversampling rep=0 s=0.778 rep=0.988 actual=0.320
+17:45:15 Kaggle Random forest pi=0.10 a=0.5 Random oversampling rep=0 s=0.778 rep=0.988 actual=0.280
+17:45:15 Kaggle XGBoost       pi=0.10 a=0.5 SMOTE               rep=0 s=0.778 rep=0.840 actual=0.320
+17:45:16 Kaggle Random forest pi=0.10 a=0.5 SMOTE               rep=0 s=0.778 rep=0.864 actual=0.280
+17:45:16 Kaggle XGBoost       pi=0.10 a=0.5 Borderline-SMOTE    rep=0 s=0.778 rep=0.877 actual=0.340
+17:45:16 Kaggle Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=0 s=0.778 rep=0.864 actual=0.320
+17:45:16 Kaggle XGBoost       pi=0.10 a=0.5 ADASYN              rep=0 s=0.795 rep=0.898 actual=0.240
+17:45:16 Kaggle Random forest pi=0.10 a=0.5 ADASYN              rep=0 s=0.795 rep=0.875 actual=0.220
+17:45:17 Kaggle XGBoost       pi=0.10 a=1.0 Random oversampling rep=0 s=0.889 rep=1.000 actual=0.380
+17:45:17 Kaggle Random forest pi=0.10 a=1.0 Random oversampling rep=0 s=0.889 rep=1.000 actual=0.280
+17:45:17 Kaggle XGBoost       pi=0.10 a=1.0 SMOTE               rep=0 s=0.889 rep=0.963 actual=0.320
+17:45:17 Kaggle Random forest pi=0.10 a=1.0 SMOTE               rep=0 s=0.889 rep=0.981 actual=0.340
+17:45:17 Kaggle XGBoost       pi=0.10 a=1.0 Borderline-SMOTE    rep=0 s=0.889 rep=0.963 actual=0.420
+17:45:18 Kaggle Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=0 s=0.889 rep=0.975 actual=0.420
+17:45:18 Kaggle XGBoost       pi=0.10 a=1.0 ADASYN              rep=0 s=0.886 rep=0.956 actual=0.380
+17:45:18 Kaggle Random forest pi=0.10 a=1.0 ADASYN              rep=0 s=0.886 rep=0.968 actual=0.360
+17:45:18 Kaggle XGBoost       pi=0.10 a=0.5 Random oversampling rep=1 s=0.778 rep=1.000 actual=0.360
+17:45:18 Kaggle Random forest pi=0.10 a=0.5 Random oversampling rep=1 s=0.778 rep=0.988 actual=0.300
+17:45:18 Kaggle XGBoost       pi=0.10 a=0.5 SMOTE               rep=1 s=0.778 rep=0.778 actual=0.280
+17:45:19 Kaggle Random forest pi=0.10 a=0.5 SMOTE               rep=1 s=0.778 rep=0.765 actual=0.340
+17:45:19 Kaggle XGBoost       pi=0.10 a=0.5 Borderline-SMOTE    rep=1 s=0.778 rep=0.877 actual=0.260
+17:45:19 Kaggle Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=1 s=0.778 rep=0.901 actual=0.320
+17:45:19 Kaggle XGBoost       pi=0.10 a=0.5 ADASYN              rep=1 s=0.783 rep=0.867 actual=0.320
+17:45:20 Kaggle Random forest pi=0.10 a=0.5 ADASYN              rep=1 s=0.783 rep=0.831 actual=0.300
+17:45:20 Kaggle XGBoost       pi=0.10 a=1.0 Random oversampling rep=1 s=0.889 rep=1.000 actual=0.360
+17:45:20 Kaggle Random forest pi=0.10 a=1.0 Random oversampling rep=1 s=0.889 rep=1.000 actual=0.280
+17:45:20 Kaggle XGBoost       pi=0.10 a=1.0 SMOTE               rep=1 s=0.889 rep=0.914 actual=0.260
+17:45:20 Kaggle Random forest pi=0.10 a=1.0 SMOTE               rep=1 s=0.889 rep=0.969 actual=0.340
+17:45:20 Kaggle XGBoost       pi=0.10 a=1.0 Borderline-SMOTE    rep=1 s=0.889 rep=0.932 actual=0.320
+17:45:21 Kaggle Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=1 s=0.889 rep=0.981 actual=0.300
+17:45:21 Kaggle XGBoost       pi=0.10 a=1.0 ADASYN              rep=1 s=0.889 rep=0.920 actual=0.280
+17:45:21 Kaggle Random forest pi=0.10 a=1.0 ADASYN              rep=1 s=0.889 rep=0.963 actual=0.340
+17:45:21 Kaggle XGBoost       pi=0.10 a=0.5 Random oversampling rep=2 s=0.778 rep=0.975 actual=0.180
+17:45:21 Kaggle Random forest pi=0.10 a=0.5 Random oversampling rep=2 s=0.778 rep=0.975 actual=0.140
+17:45:21 Kaggle XGBoost       pi=0.10 a=0.5 SMOTE               rep=2 s=0.778 rep=0.901 actual=0.220
+17:45:22 Kaggle Random forest pi=0.10 a=0.5 SMOTE               rep=2 s=0.778 rep=0.926 actual=0.200
+17:45:22 Kaggle XGBoost       pi=0.10 a=0.5 Borderline-SMOTE    rep=2 s=0.778 rep=0.877 actual=0.220
+17:45:22 Kaggle Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=2 s=0.778 rep=0.864 actual=0.140
+17:45:22 Kaggle XGBoost       pi=0.10 a=0.5 ADASYN              rep=2 s=0.764 rep=0.816 actual=0.180
+17:45:22 Kaggle Random forest pi=0.10 a=0.5 ADASYN              rep=2 s=0.764 rep=0.776 actual=0.160
+17:45:23 Kaggle XGBoost       pi=0.10 a=1.0 Random oversampling rep=2 s=0.889 rep=1.000 actual=0.260
+17:45:23 Kaggle Random forest pi=0.10 a=1.0 Random oversampling rep=2 s=0.889 rep=1.000 actual=0.200
+17:45:23 Kaggle XGBoost       pi=0.10 a=1.0 SMOTE               rep=2 s=0.889 rep=0.969 actual=0.340
+17:45:23 Kaggle Random forest pi=0.10 a=1.0 SMOTE               rep=2 s=0.889 rep=0.969 actual=0.220
+17:45:23 Kaggle XGBoost       pi=0.10 a=1.0 Borderline-SMOTE    rep=2 s=0.889 rep=0.963 actual=0.260
+17:45:24 Kaggle Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=2 s=0.889 rep=0.957 actual=0.200
+17:45:24 Kaggle XGBoost       pi=0.10 a=1.0 ADASYN              rep=2 s=0.894 rep=0.953 actual=0.320
+17:45:24 Kaggle Random forest pi=0.10 a=1.0 ADASYN              rep=2 s=0.894 rep=0.971 actual=0.180
+17:45:24 Kaggle XGBoost       pi=0.10 a=0.5 Random oversampling rep=3 s=0.778 rep=1.000 actual=0.200
+17:45:24 Kaggle Random forest pi=0.10 a=0.5 Random oversampling rep=3 s=0.778 rep=1.000 actual=0.260
+17:45:24 Kaggle XGBoost       pi=0.10 a=0.5 SMOTE               rep=3 s=0.778 rep=0.790 actual=0.220
+17:45:25 Kaggle Random forest pi=0.10 a=0.5 SMOTE               rep=3 s=0.778 rep=0.840 actual=0.160
+17:45:25 Kaggle XGBoost       pi=0.10 a=0.5 Borderline-SMOTE    rep=3 s=0.778 rep=0.778 actual=0.160
+17:45:25 Kaggle Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=3 s=0.778 rep=0.827 actual=0.180
+17:45:25 Kaggle XGBoost       pi=0.10 a=0.5 ADASYN              rep=3 s=0.787 rep=0.776 actual=0.260
+17:45:25 Kaggle Random forest pi=0.10 a=0.5 ADASYN              rep=3 s=0.787 rep=0.859 actual=0.200
+17:45:26 Kaggle XGBoost       pi=0.10 a=1.0 Random oversampling rep=3 s=0.889 rep=1.000 actual=0.240
+17:45:26 Kaggle Random forest pi=0.10 a=1.0 Random oversampling rep=3 s=0.889 rep=1.000 actual=0.220
+17:45:26 Kaggle XGBoost       pi=0.10 a=1.0 SMOTE               rep=3 s=0.889 rep=0.932 actual=0.160
+17:45:26 Kaggle Random forest pi=0.10 a=1.0 SMOTE               rep=3 s=0.889 rep=0.957 actual=0.200
+17:45:26 Kaggle XGBoost       pi=0.10 a=1.0 Borderline-SMOTE    rep=3 s=0.889 rep=0.920 actual=0.280
+17:45:27 Kaggle Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=3 s=0.889 rep=0.957 actual=0.260
+17:45:27 Kaggle XGBoost       pi=0.10 a=1.0 ADASYN              rep=3 s=0.889 rep=0.932 actual=0.200
+17:45:27 Kaggle Random forest pi=0.10 a=1.0 ADASYN              rep=3 s=0.889 rep=0.951 actual=0.180
+17:45:27 Kaggle XGBoost       pi=0.10 a=0.5 Random oversampling rep=4 s=0.778 rep=0.975 actual=0.240
+17:45:27 Kaggle Random forest pi=0.10 a=0.5 Random oversampling rep=4 s=0.778 rep=0.975 actual=0.300
+17:45:27 Kaggle XGBoost       pi=0.10 a=0.5 SMOTE               rep=4 s=0.778 rep=0.815 actual=0.240
+17:45:28 Kaggle Random forest pi=0.10 a=0.5 SMOTE               rep=4 s=0.778 rep=0.802 actual=0.260
+17:45:28 Kaggle XGBoost       pi=0.10 a=0.5 Borderline-SMOTE    rep=4 s=0.778 rep=0.827 actual=0.280
+17:45:28 Kaggle Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=4 s=0.778 rep=0.852 actual=0.300
+17:45:28 Kaggle XGBoost       pi=0.10 a=0.5 ADASYN              rep=4 s=0.781 rep=0.780 actual=0.240
+17:45:29 Kaggle Random forest pi=0.10 a=0.5 ADASYN              rep=4 s=0.781 rep=0.829 actual=0.300
+17:45:29 Kaggle XGBoost       pi=0.10 a=1.0 Random oversampling rep=4 s=0.889 rep=1.000 actual=0.300
+17:45:29 Kaggle Random forest pi=0.10 a=1.0 Random oversampling rep=4 s=0.889 rep=1.000 actual=0.320
+17:45:29 Kaggle XGBoost       pi=0.10 a=1.0 SMOTE               rep=4 s=0.889 rep=0.944 actual=0.280
+17:45:29 Kaggle Random forest pi=0.10 a=1.0 SMOTE               rep=4 s=0.889 rep=0.944 actual=0.420
+17:45:29 Kaggle XGBoost       pi=0.10 a=1.0 Borderline-SMOTE    rep=4 s=0.889 rep=0.951 actual=0.240
+17:45:30 Kaggle Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=4 s=0.889 rep=0.957 actual=0.420
+17:45:30 Kaggle XGBoost       pi=0.10 a=1.0 ADASYN              rep=4 s=0.887 rep=0.938 actual=0.280
+17:45:30 Kaggle Random forest pi=0.10 a=1.0 ADASYN              rep=4 s=0.887 rep=0.963 actual=0.320
+17:45:30 Kaggle XGBoost       pi=0.10 a=0.5 Random oversampling rep=5 s=0.778 rep=0.988 actual=0.340
+17:45:30 Kaggle Random forest pi=0.10 a=0.5 Random oversampling rep=5 s=0.778 rep=0.988 actual=0.280
+17:45:30 Kaggle XGBoost       pi=0.10 a=0.5 SMOTE               rep=5 s=0.778 rep=0.815 actual=0.300
+17:45:31 Kaggle Random forest pi=0.10 a=0.5 SMOTE               rep=5 s=0.778 rep=0.827 actual=0.240
+17:45:31 Kaggle XGBoost       pi=0.10 a=0.5 Borderline-SMOTE    rep=5 s=0.778 rep=0.852 actual=0.320
+17:45:31 Kaggle Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=5 s=0.778 rep=0.889 actual=0.240
+17:45:31 Kaggle XGBoost       pi=0.10 a=0.5 ADASYN              rep=5 s=0.771 rep=0.810 actual=0.360
+17:45:32 Kaggle Random forest pi=0.10 a=0.5 ADASYN              rep=5 s=0.771 rep=0.810 actual=0.220
+17:45:32 Kaggle XGBoost       pi=0.10 a=1.0 Random oversampling rep=5 s=0.889 rep=1.000 actual=0.340
+17:45:32 Kaggle Random forest pi=0.10 a=1.0 Random oversampling rep=5 s=0.889 rep=1.000 actual=0.220
+17:45:32 Kaggle XGBoost       pi=0.10 a=1.0 SMOTE               rep=5 s=0.889 rep=0.926 actual=0.380
+17:45:32 Kaggle Random forest pi=0.10 a=1.0 SMOTE               rep=5 s=0.889 rep=0.944 actual=0.240
+17:45:32 Kaggle XGBoost       pi=0.10 a=1.0 Borderline-SMOTE    rep=5 s=0.889 rep=0.944 actual=0.300
+17:45:33 Kaggle Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=5 s=0.889 rep=0.975 actual=0.260
+17:45:33 Kaggle XGBoost       pi=0.10 a=1.0 ADASYN              rep=5 s=0.893 rep=0.947 actual=0.320
+17:45:33 Kaggle Random forest pi=0.10 a=1.0 ADASYN              rep=5 s=0.893 rep=0.953 actual=0.320
+17:45:33 Kaggle XGBoost       pi=0.10 a=0.5 Random oversampling rep=6 s=0.778 rep=0.988 actual=0.320
+17:45:33 Kaggle Random forest pi=0.10 a=0.5 Random oversampling rep=6 s=0.778 rep=0.988 actual=0.280
+17:45:34 Kaggle XGBoost       pi=0.10 a=0.5 SMOTE               rep=6 s=0.778 rep=0.901 actual=0.340
+17:45:34 Kaggle Random forest pi=0.10 a=0.5 SMOTE               rep=6 s=0.778 rep=0.914 actual=0.360
+17:45:34 Kaggle XGBoost       pi=0.10 a=0.5 Borderline-SMOTE    rep=6 s=0.778 rep=0.889 actual=0.380
+17:45:34 Kaggle Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=6 s=0.778 rep=0.877 actual=0.360
+17:45:34 Kaggle XGBoost       pi=0.10 a=0.5 ADASYN              rep=6 s=0.793 rep=0.897 actual=0.320
+17:45:35 Kaggle Random forest pi=0.10 a=0.5 ADASYN              rep=6 s=0.793 rep=0.885 actual=0.280
+17:45:35 Kaggle XGBoost       pi=0.10 a=1.0 Random oversampling rep=6 s=0.889 rep=1.000 actual=0.340
+17:45:35 Kaggle Random forest pi=0.10 a=1.0 Random oversampling rep=6 s=0.889 rep=1.000 actual=0.380
+17:45:35 Kaggle XGBoost       pi=0.10 a=1.0 SMOTE               rep=6 s=0.889 rep=0.926 actual=0.280
+17:45:35 Kaggle Random forest pi=0.10 a=1.0 SMOTE               rep=6 s=0.889 rep=0.932 actual=0.360
+17:45:35 Kaggle XGBoost       pi=0.10 a=1.0 Borderline-SMOTE    rep=6 s=0.889 rep=0.932 actual=0.400
+17:45:36 Kaggle Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=6 s=0.889 rep=0.951 actual=0.380
+17:45:36 Kaggle XGBoost       pi=0.10 a=1.0 ADASYN              rep=6 s=0.885 rep=0.910 actual=0.360
+17:45:36 Kaggle Random forest pi=0.10 a=1.0 ADASYN              rep=6 s=0.885 rep=0.936 actual=0.420
+17:45:36 Kaggle XGBoost       pi=0.10 a=0.5 Random oversampling rep=7 s=0.778 rep=0.975 actual=0.320
+17:45:36 Kaggle Random forest pi=0.10 a=0.5 Random oversampling rep=7 s=0.778 rep=0.975 actual=0.240
+17:45:37 Kaggle XGBoost       pi=0.10 a=0.5 SMOTE               rep=7 s=0.778 rep=0.864 actual=0.240
+17:45:37 Kaggle Random forest pi=0.10 a=0.5 SMOTE               rep=7 s=0.778 rep=0.914 actual=0.240
+17:45:37 Kaggle XGBoost       pi=0.10 a=0.5 Borderline-SMOTE    rep=7 s=0.778 rep=0.827 actual=0.260
+17:45:37 Kaggle Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=7 s=0.778 rep=0.889 actual=0.240
+17:45:37 Kaggle XGBoost       pi=0.10 a=0.5 ADASYN              rep=7 s=0.766 rep=0.818 actual=0.220
+17:45:38 Kaggle Random forest pi=0.10 a=0.5 ADASYN              rep=7 s=0.766 rep=0.870 actual=0.280
+17:45:38 Kaggle XGBoost       pi=0.10 a=1.0 Random oversampling rep=7 s=0.889 rep=1.000 actual=0.380
+17:45:38 Kaggle Random forest pi=0.10 a=1.0 Random oversampling rep=7 s=0.889 rep=1.000 actual=0.260
+17:45:38 Kaggle XGBoost       pi=0.10 a=1.0 SMOTE               rep=7 s=0.889 rep=0.920 actual=0.280
+17:45:38 Kaggle Random forest pi=0.10 a=1.0 SMOTE               rep=7 s=0.889 rep=0.926 actual=0.260
+17:45:38 Kaggle XGBoost       pi=0.10 a=1.0 Borderline-SMOTE    rep=7 s=0.889 rep=0.920 actual=0.300
+17:45:39 Kaggle Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=7 s=0.889 rep=0.944 actual=0.340
+17:45:39 Kaggle XGBoost       pi=0.10 a=1.0 ADASYN              rep=7 s=0.894 rep=0.924 actual=0.260
+17:45:39 Kaggle Random forest pi=0.10 a=1.0 ADASYN              rep=7 s=0.894 rep=0.929 actual=0.320
+17:45:39 Kaggle XGBoost       pi=0.10 a=0.5 Random oversampling rep=8 s=0.778 rep=0.988 actual=0.180
+17:45:40 Kaggle Random forest pi=0.10 a=0.5 Random oversampling rep=8 s=0.778 rep=0.988 actual=0.160
+17:45:40 Kaggle XGBoost       pi=0.10 a=0.5 SMOTE               rep=8 s=0.778 rep=0.753 actual=0.220
+17:45:40 Kaggle Random forest pi=0.10 a=0.5 SMOTE               rep=8 s=0.778 rep=0.667 actual=0.140
+17:45:40 Kaggle XGBoost       pi=0.10 a=0.5 Borderline-SMOTE    rep=8 s=0.778 rep=0.840 actual=0.180
+17:45:40 Kaggle Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=8 s=0.778 rep=0.827 actual=0.160
+17:45:40 Kaggle XGBoost       pi=0.10 a=0.5 ADASYN              rep=8 s=0.779 rep=0.793 actual=0.120
+17:45:41 Kaggle Random forest pi=0.10 a=0.5 ADASYN              rep=8 s=0.779 rep=0.805 actual=0.180
+17:45:41 Kaggle XGBoost       pi=0.10 a=1.0 Random oversampling rep=8 s=0.889 rep=1.000 actual=0.240
+17:45:41 Kaggle Random forest pi=0.10 a=1.0 Random oversampling rep=8 s=0.889 rep=1.000 actual=0.220
+17:45:41 Kaggle XGBoost       pi=0.10 a=1.0 SMOTE               rep=8 s=0.889 rep=0.932 actual=0.200
+17:45:41 Kaggle Random forest pi=0.10 a=1.0 SMOTE               rep=8 s=0.889 rep=0.951 actual=0.260
+17:45:41 Kaggle XGBoost       pi=0.10 a=1.0 Borderline-SMOTE    rep=8 s=0.889 rep=0.938 actual=0.240
+17:45:42 Kaggle Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=8 s=0.889 rep=0.951 actual=0.220
+17:45:42 Kaggle XGBoost       pi=0.10 a=1.0 ADASYN              rep=8 s=0.888 rep=0.932 actual=0.240
+17:45:42 Kaggle Random forest pi=0.10 a=1.0 ADASYN              rep=8 s=0.888 rep=0.944 actual=0.280
+17:45:42 Kaggle XGBoost       pi=0.10 a=0.5 Random oversampling rep=9 s=0.778 rep=1.000 actual=0.300
+17:45:43 Kaggle Random forest pi=0.10 a=0.5 Random oversampling rep=9 s=0.778 rep=0.988 actual=0.280
+17:45:43 Kaggle XGBoost       pi=0.10 a=0.5 SMOTE               rep=9 s=0.778 rep=0.815 actual=0.240
+17:45:43 Kaggle Random forest pi=0.10 a=0.5 SMOTE               rep=9 s=0.778 rep=0.815 actual=0.180
+17:45:43 Kaggle XGBoost       pi=0.10 a=0.5 Borderline-SMOTE    rep=9 s=0.778 rep=0.815 actual=0.260
+17:45:43 Kaggle Random forest pi=0.10 a=0.5 Borderline-SMOTE    rep=9 s=0.778 rep=0.815 actual=0.240
+17:45:43 Kaggle XGBoost       pi=0.10 a=0.5 ADASYN              rep=9 s=0.767 rep=0.795 actual=0.300
+17:45:44 Kaggle Random forest pi=0.10 a=0.5 ADASYN              rep=9 s=0.767 rep=0.872 actual=0.260
+17:45:44 Kaggle XGBoost       pi=0.10 a=1.0 Random oversampling rep=9 s=0.889 rep=1.000 actual=0.420
+17:45:44 Kaggle Random forest pi=0.10 a=1.0 Random oversampling rep=9 s=0.889 rep=1.000 actual=0.220
+17:45:44 Kaggle XGBoost       pi=0.10 a=1.0 SMOTE               rep=9 s=0.889 rep=0.938 actual=0.240
+17:45:44 Kaggle Random forest pi=0.10 a=1.0 SMOTE               rep=9 s=0.889 rep=0.951 actual=0.260
+17:45:45 Kaggle XGBoost       pi=0.10 a=1.0 Borderline-SMOTE    rep=9 s=0.889 rep=0.938 actual=0.280
+17:45:45 Kaggle Random forest pi=0.10 a=1.0 Borderline-SMOTE    rep=9 s=0.889 rep=0.969 actual=0.300
+17:45:45 Kaggle XGBoost       pi=0.10 a=1.0 ADASYN              rep=9 s=0.891 rep=0.933 actual=0.240
+17:45:45 Kaggle Random forest pi=0.10 a=1.0 ADASYN              rep=9 s=0.891 rep=0.952 actual=0.260
+17:45:45 Kaggle XGBoost       pi=0.20 a=0.5 Random oversampling rep=0 s=0.500 rep=0.861 actual=0.540
+17:45:46 Kaggle Random forest pi=0.20 a=0.5 Random oversampling rep=0 s=0.500 rep=0.847 actual=0.500
+17:45:46 Kaggle XGBoost       pi=0.20 a=0.5 SMOTE               rep=0 s=0.500 rep=0.667 actual=0.460
+17:45:46 Kaggle Random forest pi=0.20 a=0.5 SMOTE               rep=0 s=0.500 rep=0.653 actual=0.480
+17:45:46 Kaggle XGBoost       pi=0.20 a=0.5 Borderline-SMOTE    rep=0 s=0.500 rep=0.792 actual=0.460
+17:45:46 Kaggle Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=0 s=0.500 rep=0.736 actual=0.480
+17:45:46 Kaggle XGBoost       pi=0.20 a=0.5 ADASYN              rep=0 s=0.496 rep=0.792 actual=0.480
+17:45:47 Kaggle Random forest pi=0.20 a=0.5 ADASYN              rep=0 s=0.496 rep=0.736 actual=0.520
+17:45:47 Kaggle XGBoost       pi=0.20 a=1.0 Random oversampling rep=0 s=0.750 rep=0.965 actual=0.540
+17:45:47 Kaggle Random forest pi=0.20 a=1.0 Random oversampling rep=0 s=0.750 rep=0.951 actual=0.500
+17:45:47 Kaggle XGBoost       pi=0.20 a=1.0 SMOTE               rep=0 s=0.750 rep=0.889 actual=0.520
+17:45:47 Kaggle Random forest pi=0.20 a=1.0 SMOTE               rep=0 s=0.750 rep=0.924 actual=0.460
+17:45:48 Kaggle XGBoost       pi=0.20 a=1.0 Borderline-SMOTE    rep=0 s=0.750 rep=0.889 actual=0.460
+17:45:48 Kaggle Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=0 s=0.750 rep=0.938 actual=0.500
+17:45:48 Kaggle XGBoost       pi=0.20 a=1.0 ADASYN              rep=0 s=0.757 rep=0.906 actual=0.520
+17:45:48 Kaggle Random forest pi=0.20 a=1.0 ADASYN              rep=0 s=0.757 rep=0.933 actual=0.520
+17:45:48 Kaggle XGBoost       pi=0.20 a=0.5 Random oversampling rep=1 s=0.500 rep=0.819 actual=0.480
+17:45:49 Kaggle Random forest pi=0.20 a=0.5 Random oversampling rep=1 s=0.500 rep=0.819 actual=0.520
+17:45:49 Kaggle XGBoost       pi=0.20 a=0.5 SMOTE               rep=1 s=0.500 rep=0.764 actual=0.520
+17:45:49 Kaggle Random forest pi=0.20 a=0.5 SMOTE               rep=1 s=0.500 rep=0.708 actual=0.540
+17:45:49 Kaggle XGBoost       pi=0.20 a=0.5 Borderline-SMOTE    rep=1 s=0.500 rep=0.625 actual=0.440
+17:45:49 Kaggle Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=1 s=0.500 rep=0.708 actual=0.560
+17:45:49 Kaggle XGBoost       pi=0.20 a=0.5 ADASYN              rep=1 s=0.514 rep=0.622 actual=0.520
+17:45:50 Kaggle Random forest pi=0.20 a=0.5 ADASYN              rep=1 s=0.514 rep=0.662 actual=0.520
+17:45:50 Kaggle XGBoost       pi=0.20 a=1.0 Random oversampling rep=1 s=0.750 rep=0.979 actual=0.540
+17:45:50 Kaggle Random forest pi=0.20 a=1.0 Random oversampling rep=1 s=0.750 rep=1.000 actual=0.620
+17:45:50 Kaggle XGBoost       pi=0.20 a=1.0 SMOTE               rep=1 s=0.750 rep=0.889 actual=0.580
+17:45:50 Kaggle Random forest pi=0.20 a=1.0 SMOTE               rep=1 s=0.750 rep=0.924 actual=0.640
+17:45:51 Kaggle XGBoost       pi=0.20 a=1.0 Borderline-SMOTE    rep=1 s=0.750 rep=0.875 actual=0.580
+17:45:51 Kaggle Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=1 s=0.750 rep=0.951 actual=0.640
+17:45:51 Kaggle XGBoost       pi=0.20 a=1.0 ADASYN              rep=1 s=0.756 rep=0.845 actual=0.480
+17:45:51 Kaggle Random forest pi=0.20 a=1.0 ADASYN              rep=1 s=0.756 rep=0.946 actual=0.580
+17:45:51 Kaggle XGBoost       pi=0.20 a=0.5 Random oversampling rep=2 s=0.500 rep=0.847 actual=0.460
+17:45:52 Kaggle Random forest pi=0.20 a=0.5 Random oversampling rep=2 s=0.500 rep=0.875 actual=0.520
+17:45:52 Kaggle XGBoost       pi=0.20 a=0.5 SMOTE               rep=2 s=0.500 rep=0.778 actual=0.420
+17:45:52 Kaggle Random forest pi=0.20 a=0.5 SMOTE               rep=2 s=0.500 rep=0.806 actual=0.460
+17:45:52 Kaggle XGBoost       pi=0.20 a=0.5 Borderline-SMOTE    rep=2 s=0.500 rep=0.778 actual=0.360
+17:45:52 Kaggle Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=2 s=0.500 rep=0.875 actual=0.580
+17:45:52 Kaggle XGBoost       pi=0.20 a=0.5 ADASYN              rep=2 s=0.475 rep=0.783 actual=0.440
+17:45:53 Kaggle Random forest pi=0.20 a=0.5 ADASYN              rep=2 s=0.475 rep=0.783 actual=0.500
+17:45:53 Kaggle XGBoost       pi=0.20 a=1.0 Random oversampling rep=2 s=0.750 rep=1.000 actual=0.580
+17:45:53 Kaggle Random forest pi=0.20 a=1.0 Random oversampling rep=2 s=0.750 rep=0.993 actual=0.600
+17:45:53 Kaggle XGBoost       pi=0.20 a=1.0 SMOTE               rep=2 s=0.750 rep=0.910 actual=0.520
+17:45:53 Kaggle Random forest pi=0.20 a=1.0 SMOTE               rep=2 s=0.750 rep=0.938 actual=0.600
+17:45:54 Kaggle XGBoost       pi=0.20 a=1.0 Borderline-SMOTE    rep=2 s=0.750 rep=0.875 actual=0.480
+17:45:54 Kaggle Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=2 s=0.750 rep=0.958 actual=0.620
+17:45:54 Kaggle XGBoost       pi=0.20 a=1.0 ADASYN              rep=2 s=0.761 rep=0.914 actual=0.520
+17:45:54 Kaggle Random forest pi=0.20 a=1.0 ADASYN              rep=2 s=0.761 rep=0.954 actual=0.540
+17:45:54 Kaggle XGBoost       pi=0.20 a=0.5 Random oversampling rep=3 s=0.500 rep=0.819 actual=0.480
+17:45:55 Kaggle Random forest pi=0.20 a=0.5 Random oversampling rep=3 s=0.500 rep=0.792 actual=0.440
+17:45:55 Kaggle XGBoost       pi=0.20 a=0.5 SMOTE               rep=3 s=0.500 rep=0.736 actual=0.500
+17:45:55 Kaggle Random forest pi=0.20 a=0.5 SMOTE               rep=3 s=0.500 rep=0.764 actual=0.500
+17:45:55 Kaggle XGBoost       pi=0.20 a=0.5 Borderline-SMOTE    rep=3 s=0.500 rep=0.736 actual=0.440
+17:45:55 Kaggle Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=3 s=0.500 rep=0.736 actual=0.460
+17:45:55 Kaggle XGBoost       pi=0.20 a=0.5 ADASYN              rep=3 s=0.516 rep=0.720 actual=0.440
+17:45:56 Kaggle Random forest pi=0.20 a=0.5 ADASYN              rep=3 s=0.516 rep=0.707 actual=0.440
+17:45:56 Kaggle XGBoost       pi=0.20 a=1.0 Random oversampling rep=3 s=0.750 rep=0.972 actual=0.500
+17:45:56 Kaggle Random forest pi=0.20 a=1.0 Random oversampling rep=3 s=0.750 rep=0.972 actual=0.580
+17:45:56 Kaggle XGBoost       pi=0.20 a=1.0 SMOTE               rep=3 s=0.750 rep=0.896 actual=0.580
+17:45:56 Kaggle Random forest pi=0.20 a=1.0 SMOTE               rep=3 s=0.750 rep=0.944 actual=0.560
+17:45:57 Kaggle XGBoost       pi=0.20 a=1.0 Borderline-SMOTE    rep=3 s=0.750 rep=0.903 actual=0.540
+17:45:57 Kaggle Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=3 s=0.750 rep=0.938 actual=0.580
+17:45:57 Kaggle XGBoost       pi=0.20 a=1.0 ADASYN              rep=3 s=0.759 rep=0.880 actual=0.500
+17:45:57 Kaggle Random forest pi=0.20 a=1.0 ADASYN              rep=3 s=0.759 rep=0.927 actual=0.560
+17:45:57 Kaggle XGBoost       pi=0.20 a=0.5 Random oversampling rep=4 s=0.500 rep=0.889 actual=0.440
+17:45:58 Kaggle Random forest pi=0.20 a=0.5 Random oversampling rep=4 s=0.500 rep=0.958 actual=0.560
+17:45:58 Kaggle XGBoost       pi=0.20 a=0.5 SMOTE               rep=4 s=0.500 rep=0.792 actual=0.460
+17:45:58 Kaggle Random forest pi=0.20 a=0.5 SMOTE               rep=4 s=0.500 rep=0.875 actual=0.620
+17:45:58 Kaggle XGBoost       pi=0.20 a=0.5 Borderline-SMOTE    rep=4 s=0.500 rep=0.806 actual=0.500
+17:45:58 Kaggle Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=4 s=0.500 rep=0.875 actual=0.560
+17:45:58 Kaggle XGBoost       pi=0.20 a=0.5 ADASYN              rep=4 s=0.508 rep=0.753 actual=0.440
+17:45:59 Kaggle Random forest pi=0.20 a=0.5 ADASYN              rep=4 s=0.508 rep=0.781 actual=0.640
+17:45:59 Kaggle XGBoost       pi=0.20 a=1.0 Random oversampling rep=4 s=0.750 rep=0.993 actual=0.520
+17:45:59 Kaggle Random forest pi=0.20 a=1.0 Random oversampling rep=4 s=0.750 rep=0.993 actual=0.660
+17:45:59 Kaggle XGBoost       pi=0.20 a=1.0 SMOTE               rep=4 s=0.750 rep=0.903 actual=0.600
+17:45:59 Kaggle Random forest pi=0.20 a=1.0 SMOTE               rep=4 s=0.750 rep=0.951 actual=0.600
+17:46:00 Kaggle XGBoost       pi=0.20 a=1.0 Borderline-SMOTE    rep=4 s=0.750 rep=0.924 actual=0.500
+17:46:00 Kaggle Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=4 s=0.750 rep=0.951 actual=0.600
+17:46:00 Kaggle XGBoost       pi=0.20 a=1.0 ADASYN              rep=4 s=0.756 rep=0.865 actual=0.460
+17:46:00 Kaggle Random forest pi=0.20 a=1.0 ADASYN              rep=4 s=0.756 rep=0.919 actual=0.640
+17:46:00 Kaggle XGBoost       pi=0.20 a=0.5 Random oversampling rep=5 s=0.500 rep=0.806 actual=0.420
+17:46:01 Kaggle Random forest pi=0.20 a=0.5 Random oversampling rep=5 s=0.500 rep=0.764 actual=0.500
+17:46:01 Kaggle XGBoost       pi=0.20 a=0.5 SMOTE               rep=5 s=0.500 rep=0.639 actual=0.360
+17:46:01 Kaggle Random forest pi=0.20 a=0.5 SMOTE               rep=5 s=0.500 rep=0.764 actual=0.460
+17:46:01 Kaggle XGBoost       pi=0.20 a=0.5 Borderline-SMOTE    rep=5 s=0.500 rep=0.708 actual=0.480
+17:46:01 Kaggle Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=5 s=0.500 rep=0.708 actual=0.520
+17:46:01 Kaggle XGBoost       pi=0.20 a=0.5 ADASYN              rep=5 s=0.515 rep=0.622 actual=0.500
+17:46:02 Kaggle Random forest pi=0.20 a=0.5 ADASYN              rep=5 s=0.515 rep=0.676 actual=0.480
+17:46:02 Kaggle XGBoost       pi=0.20 a=1.0 Random oversampling rep=5 s=0.750 rep=0.986 actual=0.540
+17:46:02 Kaggle Random forest pi=0.20 a=1.0 Random oversampling rep=5 s=0.750 rep=0.986 actual=0.560
+17:46:02 Kaggle XGBoost       pi=0.20 a=1.0 SMOTE               rep=5 s=0.750 rep=0.868 actual=0.500
+17:46:02 Kaggle Random forest pi=0.20 a=1.0 SMOTE               rep=5 s=0.750 rep=0.931 actual=0.540
+17:46:03 Kaggle XGBoost       pi=0.20 a=1.0 Borderline-SMOTE    rep=5 s=0.750 rep=0.868 actual=0.520
+17:46:03 Kaggle Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=5 s=0.750 rep=0.924 actual=0.540
+17:46:03 Kaggle XGBoost       pi=0.20 a=1.0 ADASYN              rep=5 s=0.763 rep=0.868 actual=0.520
+17:46:03 Kaggle Random forest pi=0.20 a=1.0 ADASYN              rep=5 s=0.763 rep=0.934 actual=0.540
+17:46:03 Kaggle XGBoost       pi=0.20 a=0.5 Random oversampling rep=6 s=0.500 rep=0.903 actual=0.420
+17:46:04 Kaggle Random forest pi=0.20 a=0.5 Random oversampling rep=6 s=0.500 rep=0.875 actual=0.460
+17:46:04 Kaggle XGBoost       pi=0.20 a=0.5 SMOTE               rep=6 s=0.500 rep=0.750 actual=0.560
+17:46:04 Kaggle Random forest pi=0.20 a=0.5 SMOTE               rep=6 s=0.500 rep=0.736 actual=0.500
+17:46:04 Kaggle XGBoost       pi=0.20 a=0.5 Borderline-SMOTE    rep=6 s=0.500 rep=0.764 actual=0.480
+17:46:04 Kaggle Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=6 s=0.500 rep=0.778 actual=0.500
+17:46:05 Kaggle XGBoost       pi=0.20 a=0.5 ADASYN              rep=6 s=0.508 rep=0.767 actual=0.480
+17:46:05 Kaggle Random forest pi=0.20 a=0.5 ADASYN              rep=6 s=0.508 rep=0.836 actual=0.560
+17:46:05 Kaggle XGBoost       pi=0.20 a=1.0 Random oversampling rep=6 s=0.750 rep=1.000 actual=0.480
+17:46:05 Kaggle Random forest pi=0.20 a=1.0 Random oversampling rep=6 s=0.750 rep=1.000 actual=0.540
+17:46:05 Kaggle XGBoost       pi=0.20 a=1.0 SMOTE               rep=6 s=0.750 rep=0.889 actual=0.460
+17:46:06 Kaggle Random forest pi=0.20 a=1.0 SMOTE               rep=6 s=0.750 rep=0.938 actual=0.540
+17:46:06 Kaggle XGBoost       pi=0.20 a=1.0 Borderline-SMOTE    rep=6 s=0.750 rep=0.924 actual=0.500
+17:46:06 Kaggle Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=6 s=0.750 rep=0.958 actual=0.600
+17:46:06 Kaggle XGBoost       pi=0.20 a=1.0 ADASYN              rep=6 s=0.758 rep=0.913 actual=0.520
+17:46:06 Kaggle Random forest pi=0.20 a=1.0 ADASYN              rep=6 s=0.758 rep=0.966 actual=0.600
+17:46:06 Kaggle XGBoost       pi=0.20 a=0.5 Random oversampling rep=7 s=0.500 rep=0.764 actual=0.460
+17:46:07 Kaggle Random forest pi=0.20 a=0.5 Random oversampling rep=7 s=0.500 rep=0.778 actual=0.500
+17:46:07 Kaggle XGBoost       pi=0.20 a=0.5 SMOTE               rep=7 s=0.500 rep=0.750 actual=0.500
+17:46:07 Kaggle Random forest pi=0.20 a=0.5 SMOTE               rep=7 s=0.500 rep=0.750 actual=0.500
+17:46:07 Kaggle XGBoost       pi=0.20 a=0.5 Borderline-SMOTE    rep=7 s=0.500 rep=0.708 actual=0.480
+17:46:07 Kaggle Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=7 s=0.500 rep=0.750 actual=0.480
+17:46:08 Kaggle XGBoost       pi=0.20 a=0.5 ADASYN              rep=7 s=0.515 rep=0.730 actual=0.480
+17:46:08 Kaggle Random forest pi=0.20 a=0.5 ADASYN              rep=7 s=0.515 rep=0.770 actual=0.500
+17:46:08 Kaggle XGBoost       pi=0.20 a=1.0 Random oversampling rep=7 s=0.750 rep=0.972 actual=0.500
+17:46:08 Kaggle Random forest pi=0.20 a=1.0 Random oversampling rep=7 s=0.750 rep=1.000 actual=0.600
+17:46:08 Kaggle XGBoost       pi=0.20 a=1.0 SMOTE               rep=7 s=0.750 rep=0.889 actual=0.500
+17:46:09 Kaggle Random forest pi=0.20 a=1.0 SMOTE               rep=7 s=0.750 rep=0.917 actual=0.660
+17:46:09 Kaggle XGBoost       pi=0.20 a=1.0 Borderline-SMOTE    rep=7 s=0.750 rep=0.889 actual=0.560
+17:46:09 Kaggle Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=7 s=0.750 rep=0.944 actual=0.600
+17:46:09 Kaggle XGBoost       pi=0.20 a=1.0 ADASYN              rep=7 s=0.762 rep=0.874 actual=0.500
+17:46:09 Kaggle Random forest pi=0.20 a=1.0 ADASYN              rep=7 s=0.762 rep=0.914 actual=0.560
+17:46:09 Kaggle XGBoost       pi=0.20 a=0.5 Random oversampling rep=8 s=0.500 rep=0.889 actual=0.560
+17:46:10 Kaggle Random forest pi=0.20 a=0.5 Random oversampling rep=8 s=0.500 rep=0.889 actual=0.540
+17:46:10 Kaggle XGBoost       pi=0.20 a=0.5 SMOTE               rep=8 s=0.500 rep=0.708 actual=0.420
+17:46:10 Kaggle Random forest pi=0.20 a=0.5 SMOTE               rep=8 s=0.500 rep=0.792 actual=0.520
+17:46:10 Kaggle XGBoost       pi=0.20 a=0.5 Borderline-SMOTE    rep=8 s=0.500 rep=0.764 actual=0.380
+17:46:10 Kaggle Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=8 s=0.500 rep=0.778 actual=0.540
+17:46:11 Kaggle XGBoost       pi=0.20 a=0.5 ADASYN              rep=8 s=0.517 rep=0.653 actual=0.460
+17:46:11 Kaggle Random forest pi=0.20 a=0.5 ADASYN              rep=8 s=0.517 rep=0.720 actual=0.540
+17:46:11 Kaggle XGBoost       pi=0.20 a=1.0 Random oversampling rep=8 s=0.750 rep=0.986 actual=0.620
+17:46:11 Kaggle Random forest pi=0.20 a=1.0 Random oversampling rep=8 s=0.750 rep=0.986 actual=0.620
+17:46:11 Kaggle XGBoost       pi=0.20 a=1.0 SMOTE               rep=8 s=0.750 rep=0.854 actual=0.540
+17:46:12 Kaggle Random forest pi=0.20 a=1.0 SMOTE               rep=8 s=0.750 rep=0.868 actual=0.620
+17:46:12 Kaggle XGBoost       pi=0.20 a=1.0 Borderline-SMOTE    rep=8 s=0.750 rep=0.882 actual=0.480
+17:46:12 Kaggle Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=8 s=0.750 rep=0.917 actual=0.640
+17:46:12 Kaggle XGBoost       pi=0.20 a=1.0 ADASYN              rep=8 s=0.762 rep=0.882 actual=0.540
+17:46:12 Kaggle Random forest pi=0.20 a=1.0 ADASYN              rep=8 s=0.762 rep=0.888 actual=0.700
+17:46:12 Kaggle XGBoost       pi=0.20 a=0.5 Random oversampling rep=9 s=0.500 rep=0.736 actual=0.380
+17:46:13 Kaggle Random forest pi=0.20 a=0.5 Random oversampling rep=9 s=0.500 rep=0.708 actual=0.360
+17:46:13 Kaggle XGBoost       pi=0.20 a=0.5 SMOTE               rep=9 s=0.500 rep=0.639 actual=0.400
+17:46:13 Kaggle Random forest pi=0.20 a=0.5 SMOTE               rep=9 s=0.500 rep=0.653 actual=0.380
+17:46:13 Kaggle XGBoost       pi=0.20 a=0.5 Borderline-SMOTE    rep=9 s=0.500 rep=0.681 actual=0.400
+17:46:14 Kaggle Random forest pi=0.20 a=0.5 Borderline-SMOTE    rep=9 s=0.500 rep=0.681 actual=0.480
+17:46:14 Kaggle XGBoost       pi=0.20 a=0.5 ADASYN              rep=9 s=0.523 rep=0.697 actual=0.420
+17:46:14 Kaggle Random forest pi=0.20 a=0.5 ADASYN              rep=9 s=0.523 rep=0.671 actual=0.420
+17:46:14 Kaggle XGBoost       pi=0.20 a=1.0 Random oversampling rep=9 s=0.750 rep=0.993 actual=0.480
+17:46:14 Kaggle Random forest pi=0.20 a=1.0 Random oversampling rep=9 s=0.750 rep=0.993 actual=0.580
+17:46:14 Kaggle XGBoost       pi=0.20 a=1.0 SMOTE               rep=9 s=0.750 rep=0.882 actual=0.480
+17:46:15 Kaggle Random forest pi=0.20 a=1.0 SMOTE               rep=9 s=0.750 rep=0.938 actual=0.560
+17:46:15 Kaggle XGBoost       pi=0.20 a=1.0 Borderline-SMOTE    rep=9 s=0.750 rep=0.931 actual=0.480
+17:46:15 Kaggle Random forest pi=0.20 a=1.0 Borderline-SMOTE    rep=9 s=0.750 rep=0.958 actual=0.520
+17:46:15 Kaggle XGBoost       pi=0.20 a=1.0 ADASYN              rep=9 s=0.767 rep=0.916 actual=0.440
+17:46:15 Kaggle Random forest pi=0.20 a=1.0 ADASYN              rep=9 s=0.767 rep=0.961 actual=0.600
+17:46:15 BRFSS 2023 / Random forest (SMOTE variants): prevalence <=5%: max |rep - s| = 0.0195, mean = 0.0058, runs = 54; prevalence >=10%: mean |a_est - actual| = 0.0952
+17:46:15 Kaggle / Random forest (SMOTE variants): prevalence <=5%: max |rep - s| = 0.0574, mean = 0.0170, runs = 120; prevalence >=10%: mean |a_est - actual| = 0.1839
+17:46:15 Kaggle / XGBoost (SMOTE variants): prevalence <=5%: max |rep - s| = 0.0734, mean = 0.0168, runs = 120; prevalence >=10%: mean |a_est - actual| = 0.1210

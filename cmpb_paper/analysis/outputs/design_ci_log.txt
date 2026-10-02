@@ -1,0 +1,25 @@
+XGBoost pre-event, 2023 test {'roc_auc': 0.8394, 'pr_auc': 0.1673, 'brier': np.float64(0.031), 'observed_over_expected': np.float64(1.08), 'sensitivity': np.float64(0.5834), 'specificity': np.float64(0.8729), 'ppv': np.float64(0.1427)}
+Logistic regression pre-event, 2023 test {'roc_auc': 0.8333, 'pr_auc': 0.1716, 'brier': np.float64(0.031), 'observed_over_expected': np.float64(1.0845), 'sensitivity': np.float64(0.6133), 'specificity': np.float64(0.8499), 'ppv': np.float64(0.1291)}
+2024 {'roc_auc': 0.8313, 'pr_auc': 0.1728, 'brier': np.float64(0.0312), 'observed_over_expected': np.float64(1.0648), 'sensitivity': np.float64(0.5791), 'specificity': np.float64(0.8618), 'ppv': np.float64(0.133)} unweighted ROC 0.8046
+                                   model                measure  weighted_estimate  design_lo  design_hi
+            XGBoost pre-event, 2023 test                roc_auc             0.8394     0.8239     0.8553
+            XGBoost pre-event, 2023 test                 pr_auc             0.1673     0.1502     0.1894
+            XGBoost pre-event, 2023 test                  brier             0.0310     0.0289     0.0329
+            XGBoost pre-event, 2023 test observed_over_expected             1.0800     1.0076     1.1514
+            XGBoost pre-event, 2023 test            sensitivity             0.5834     0.5455     0.6218
+            XGBoost pre-event, 2023 test            specificity             0.8729     0.8682     0.8772
+            XGBoost pre-event, 2023 test                    ppv             0.1427     0.1303     0.1550
+Logistic regression pre-event, 2023 test                roc_auc             0.8333     0.8165     0.8509
+Logistic regression pre-event, 2023 test                 pr_auc             0.1716     0.1471     0.2085
+Logistic regression pre-event, 2023 test                  brier             0.0310     0.0290     0.0330
+Logistic regression pre-event, 2023 test observed_over_expected             1.0845     1.0104     1.1592
+Logistic regression pre-event, 2023 test            sensitivity             0.6133     0.5745     0.6506
+Logistic regression pre-event, 2023 test            specificity             0.8499     0.8452     0.8547
+Logistic regression pre-event, 2023 test                    ppv             0.1291     0.1176     0.1401
+      XGBoost pre-event (35), BRFSS 2024                roc_auc             0.8313     0.8248     0.8372
+      XGBoost pre-event (35), BRFSS 2024                 pr_auc             0.1728     0.1648     0.1826
+      XGBoost pre-event (35), BRFSS 2024                  brier             0.0312     0.0305     0.0323
+      XGBoost pre-event (35), BRFSS 2024 observed_over_expected             1.0648     1.0365     1.1054
+      XGBoost pre-event (35), BRFSS 2024            sensitivity             0.5791     0.5637     0.5926
+      XGBoost pre-event (35), BRFSS 2024            specificity             0.8618     0.8598     0.8639
+      XGBoost pre-event (35), BRFSS 2024                    ppv             0.1330     0.1290     0.1377

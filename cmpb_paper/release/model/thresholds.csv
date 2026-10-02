@@ -1,0 +1,4 @@
+tier,recall_target,threshold
+broad,0.8,0.04116410940627084
+primary,0.6,0.07408272181454302
+focused,0.4,0.0875283522348232

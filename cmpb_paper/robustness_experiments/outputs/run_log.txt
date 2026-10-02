@@ -1,0 +1,124 @@
+2026-09-29 11:36:12,415 ===== run start: exp=all seeds=[42, 7, 123, 2024, 99] =====
+2026-09-29 11:36:12,529 BRFSS 2023: 431,849 rows, 55 features, prevalence 0.0425
+2026-09-29 11:36:36,203 [Exp1] seed=42 full_55    n=55 isotonic ROC=0.8323 PR=0.1860 t=0.0834 rec=0.617 prec=0.146 F2=0.3748
+2026-09-29 11:36:36,204 [Exp1] SANITY CHECK vs published Stage 2 (ROC 0.8326, PR 0.1881, t 0.0866, F2 0.3779): REPRODUCED
+2026-09-29 11:37:04,274 [Exp1] seed=42 minus_A    n=50 isotonic ROC=0.8289 PR=0.1820 t=0.0926 rec=0.590 prec=0.147 F2=0.3686
+2026-09-29 11:37:24,752 [Exp1] seed=42 minus_AB   n=41 isotonic ROC=0.8112 PR=0.1630 t=0.0620 rec=0.660 prec=0.123 F2=0.3531
+2026-09-29 11:37:55,445 [Exp1] seed=42 minus_ABC  n=37 isotonic ROC=0.8109 PR=0.1624 t=0.0741 rec=0.610 prec=0.131 F2=0.3522
+2026-09-29 11:44:43,005 [Exp1] seed 42 done in 8.5 min
+2026-09-29 11:45:08,535 [Exp1] seed=7 full_55    n=55 isotonic ROC=0.8340 PR=0.1886 t=0.0657 rec=0.726 prec=0.128 F2=0.3752
+2026-09-29 11:45:33,890 [Exp1] seed=7 minus_A    n=50 isotonic ROC=0.8297 PR=0.1791 t=0.0667 rec=0.660 prec=0.138 F2=0.3754
+2026-09-29 11:45:52,880 [Exp1] seed=7 minus_AB   n=41 isotonic ROC=0.8135 PR=0.1642 t=0.0588 rec=0.632 prec=0.128 F2=0.3544
+2026-09-29 11:46:13,047 [Exp1] seed=7 minus_ABC  n=37 isotonic ROC=0.8134 PR=0.1644 t=0.0690 rec=0.666 prec=0.122 F2=0.3519
+2026-09-29 11:46:13,048 [Exp1] seed 7 done in 1.5 min
+2026-09-29 11:46:50,281 [Exp1] seed=123 full_55    n=55 isotonic ROC=0.8367 PR=0.1864 t=0.0829 rec=0.626 prec=0.152 F2=0.3854
+2026-09-29 11:47:18,550 [Exp1] seed=123 minus_A    n=50 isotonic ROC=0.8319 PR=0.1788 t=0.0727 rec=0.616 prec=0.146 F2=0.3750
+2026-09-29 11:47:44,043 [Exp1] seed=123 minus_AB   n=41 isotonic ROC=0.8177 PR=0.1690 t=0.0727 rec=0.618 prec=0.131 F2=0.3547
+2026-09-29 11:48:08,057 [Exp1] seed=123 minus_ABC  n=37 isotonic ROC=0.8160 PR=0.1691 t=0.0741 rec=0.594 prec=0.134 F2=0.3524
+2026-09-29 11:48:08,058 [Exp1] seed 123 done in 1.9 min
+2026-09-29 11:48:46,653 [Exp1] seed=2024 full_55    n=55 isotonic ROC=0.8308 PR=0.1900 t=0.0908 rec=0.608 prec=0.150 F2=0.3777
+2026-09-29 11:49:15,149 [Exp1] seed=2024 minus_A    n=50 isotonic ROC=0.8243 PR=0.1795 t=0.0801 rec=0.586 prec=0.147 F2=0.3673
+2026-09-29 11:49:37,748 [Exp1] seed=2024 minus_AB   n=41 isotonic ROC=0.8072 PR=0.1632 t=0.0630 rec=0.687 prec=0.112 F2=0.3388
+2026-09-29 11:49:48,280 [Exp1] seed=2024 minus_ABC  n=37 isotonic ROC=0.8062 PR=0.1636 t=0.0648 rec=0.608 prec=0.127 F2=0.3454
+2026-09-29 11:49:48,280 [Exp1] seed 2024 done in 1.7 min
+2026-09-29 11:50:11,859 [Exp1] seed=99 full_55    n=55 isotonic ROC=0.8352 PR=0.1847 t=0.0662 rec=0.589 prec=0.156 F2=0.3794
+2026-09-29 11:50:37,909 [Exp1] seed=99 minus_A    n=50 isotonic ROC=0.8291 PR=0.1772 t=0.0759 rec=0.567 prec=0.150 F2=0.3647
+2026-09-29 11:51:02,874 [Exp1] seed=99 minus_AB   n=41 isotonic ROC=0.8141 PR=0.1642 t=0.0708 rec=0.680 prec=0.119 F2=0.3496
+2026-09-29 11:51:26,959 [Exp1] seed=99 minus_ABC  n=37 isotonic ROC=0.8119 PR=0.1604 t=0.0699 rec=0.652 prec=0.119 F2=0.3446
+2026-09-29 11:51:26,959 [Exp1] seed 99 done in 1.6 min
+2026-09-29 11:51:27,027 
+=== Experiment 1 summary (mean, std over seeds) ===
+          n_features      roc_auc          pr_auc           brier             ece          recall         precision         specificity              f2         fp_per_tp        
+                mean  std    mean     std    mean     std    mean     std    mean     std    mean     std      mean     std        mean     std    mean     std      mean     std
+variant                                                                                                                                                                          
+full_55         55.0  0.0  0.8338  0.0023  0.1871  0.0021  0.0371  0.0000  0.0013  0.0005  0.6333  0.0538    0.1465  0.0111      0.8342  0.0310  0.3785  0.0043    5.8620  0.5608
+minus_A         50.0  0.0  0.8288  0.0028  0.1793  0.0017  0.0373  0.0001  0.0016  0.0008  0.6039  0.0358    0.1458  0.0047      0.8425  0.0156  0.3702  0.0048    5.8658  0.2287
+minus_AB        41.0  0.0  0.8127  0.0039  0.1647  0.0024  0.0377  0.0001  0.0013  0.0004  0.6555  0.0299    0.1228  0.0077      0.7908  0.0245  0.3501  0.0066    7.1725  0.5244
+minus_ABC       37.0  0.0  0.8117  0.0036  0.1640  0.0032  0.0377  0.0001  0.0013  0.0004  0.6259  0.0311    0.1266  0.0061      0.8076  0.0196  0.3493  0.0039    6.9134  0.3796
+2026-09-29 11:51:27,034 
+=== Paired-bootstrap deltas vs full_55 ===
+ seed   variant  d_roc_auc  d_roc_ci_lo  d_roc_ci_hi  d_pr_auc  d_pr_ci_lo  d_pr_ci_hi
+   42   minus_A    -0.0034      -0.0048      -0.0019   -0.0040     -0.0080      0.0001
+   42  minus_AB    -0.0212      -0.0244      -0.0176   -0.0229     -0.0287     -0.0176
+   42 minus_ABC    -0.0214      -0.0249      -0.0179   -0.0236     -0.0296     -0.0184
+2026-09-29 11:51:27,316 BRFSS 2023: 431,849 rows, 55 features, prevalence 0.0425
+2026-09-29 11:53:28,923 [Exp2:brfss2023] seed 42 done
+2026-09-29 11:55:20,567 [Exp2:brfss2023] seed 7 done
+2026-09-29 11:57:15,752 [Exp2:brfss2023] seed 123 done
+2026-09-29 11:59:03,854 [Exp2:brfss2023] seed 2024 done
+2026-09-29 12:00:58,381 [Exp2:brfss2023] seed 99 done
+2026-09-29 12:00:58,421 
+=== Experiment 2 [brfss2023]: reported vs actual (mean over seeds) ===
+                                                   prevalence  accuracy  recall  precision  specificity      f1      f2  roc_auc  pr_auc   brier     ece
+pipeline                                 kind                                                                                                           
+C1: t=0.5, no calibration                actual        0.0425    0.9566  0.0242     0.3467       0.9980  0.0452  0.0297   0.8247  0.1789  0.0378  0.0065
+                                         reported      0.0425    0.9568  0.0278     0.3838       0.9980  0.0518  0.0341   0.8248  0.1843  0.0377  0.0063
+C2: C1 + threshold tuned on test         actual        0.0425    0.9064  0.3822     0.1968       0.9297  0.2579  0.3194   0.8247  0.1789  0.0378  0.0065
+                                         reported      0.0425    0.9068  0.3854     0.1989       0.9299  0.2602  0.3221   0.8248  0.1843  0.0377  0.0063
+C3: SMOTE before split, t=0.5            actual        0.0425    0.9571  0.0199     0.3956       0.9986  0.0380  0.0246   0.8271  0.1839  0.0376  0.0037
+                                         reported      0.5000    0.9773  0.9560     0.9985       0.9986  0.9768  0.9642   0.9926  0.9944  0.0197  0.0018
+C4: C3 + threshold tuned on test         actual        0.0425    0.9572  0.0140     0.4098       0.9991  0.0270  0.0173   0.8271  0.1839  0.0376  0.0037
+                                         reported      0.5000    0.9774  0.9556     0.9991       0.9992  0.9769  0.9640   0.9926  0.9944  0.0197  0.0018
+C5 (control): SMOTE on train only, t=0.5 actual        0.0425    0.9569  0.0185     0.3693       0.9986  0.0353  0.0229   0.8270  0.1823  0.0376  0.0041
+                                         reported      0.0425    0.9572  0.0205     0.4209       0.9987  0.0391  0.0253   0.8274  0.1897  0.0374  0.0039
+R: paper pipeline                        actual        0.0425    0.8257  0.6333     0.1465       0.8342  0.2372  0.3785   0.8338  0.1871  0.0371  0.0013
+2026-09-29 12:00:58,429 
+=== Optimism = reported - actual [brfss2023] ===
+                                          optimism_accuracy  optimism_recall  optimism_precision  optimism_specificity  optimism_f1  optimism_f2  optimism_roc_auc  optimism_pr_auc  optimism_brier  optimism_ece
+pipeline                                                                                                                                                                                                         
+C1: t=0.5, no calibration                            0.0002           0.0036              0.0371                0.0000       0.0066       0.0044            0.0001           0.0054         -0.0001       -0.0002
+C2: C1 + threshold tuned on test                     0.0004           0.0032              0.0021                0.0002       0.0023       0.0027            0.0001           0.0054         -0.0001       -0.0002
+C3: SMOTE before split, t=0.5                        0.0202           0.9361              0.6029                0.0000       0.9388       0.9396            0.1655           0.8105         -0.0179       -0.0019
+C4: C3 + threshold tuned on test                     0.0202           0.9416              0.5893                0.0001       0.9499       0.9467            0.1655           0.8105         -0.0179       -0.0019
+C5 (control): SMOTE on train only, t=0.5             0.0003           0.0020              0.0516                0.0001       0.0038       0.0024            0.0004           0.0074         -0.0002       -0.0002
+2026-09-29 12:00:58,534 Kaggle/DataPort: 5,110 rows, prevalence 0.0487
+2026-09-29 12:01:01,710 [Exp2:kaggle] seed 0 done
+2026-09-29 12:01:04,967 [Exp2:kaggle] seed 1 done
+2026-09-29 12:01:07,891 [Exp2:kaggle] seed 2 done
+2026-09-29 12:01:10,959 [Exp2:kaggle] seed 3 done
+2026-09-29 12:01:13,985 [Exp2:kaggle] seed 4 done
+2026-09-29 12:01:16,984 [Exp2:kaggle] seed 5 done
+2026-09-29 12:01:19,928 [Exp2:kaggle] seed 6 done
+2026-09-29 12:01:23,154 [Exp2:kaggle] seed 7 done
+2026-09-29 12:01:26,291 [Exp2:kaggle] seed 8 done
+2026-09-29 12:01:29,563 [Exp2:kaggle] seed 9 done
+2026-09-29 12:01:32,491 [Exp2:kaggle] seed 10 done
+2026-09-29 12:01:35,467 [Exp2:kaggle] seed 11 done
+2026-09-29 12:01:38,564 [Exp2:kaggle] seed 12 done
+2026-09-29 12:01:41,951 [Exp2:kaggle] seed 13 done
+2026-09-29 12:01:45,105 [Exp2:kaggle] seed 14 done
+2026-09-29 12:01:48,397 [Exp2:kaggle] seed 15 done
+2026-09-29 12:01:51,517 [Exp2:kaggle] seed 16 done
+2026-09-29 12:01:54,715 [Exp2:kaggle] seed 17 done
+2026-09-29 12:01:57,796 [Exp2:kaggle] seed 18 done
+2026-09-29 12:02:00,871 [Exp2:kaggle] seed 19 done
+2026-09-29 12:02:00,916 
+=== Experiment 2 [kaggle]: reported vs actual (mean over seeds) ===
+                                                   prevalence  accuracy  recall  precision  specificity      f1      f2  roc_auc  pr_auc   brier     ece
+pipeline                                 kind                                                                                                           
+C1: t=0.5, no calibration                actual        0.0489    0.9414  0.0600     0.1946       0.9867  0.0910  0.0694   0.8008  0.1586  0.0502  0.0418
+                                         reported      0.0489    0.9399  0.0625     0.1664       0.9850  0.0895  0.0710   0.7932  0.1521  0.0505  0.0416
+C2: C1 + threshold tuned on test         actual        0.0489    0.8673  0.3690     0.1646       0.8929  0.2063  0.2686   0.8008  0.1586  0.0502  0.0418
+                                         reported      0.0489    0.8721  0.4275     0.2008       0.8949  0.2526  0.3221   0.7932  0.1521  0.0505  0.0416
+C3: SMOTE before split, t=0.5            actual        0.0489    0.9220  0.1210     0.1439       0.9632  0.1308  0.1247   0.7840  0.1317  0.0613  0.0553
+                                         reported      0.5000    0.9583  0.9550     0.9614       0.9616  0.9582  0.9563   0.9922  0.9932  0.0316  0.0151
+C4: C3 + threshold tuned on test         actual        0.0489    0.9249  0.1010     0.1384       0.9673  0.1145  0.1056   0.7840  0.1317  0.0613  0.0553
+                                         reported      0.5000    0.9614  0.9532     0.9692       0.9696  0.9611  0.9563   0.9922  0.9932  0.0316  0.0151
+C5 (control): SMOTE on train only, t=0.5 actual        0.0489    0.9253  0.1040     0.1399       0.9675  0.1186  0.1093   0.7825  0.1301  0.0596  0.0532
+                                         reported      0.0489    0.9237  0.1075     0.1381       0.9657  0.1194  0.1117   0.7835  0.1306  0.0605  0.0550
+R: paper pipeline                        actual        0.0489    0.8002  0.6560     0.1527       0.8076  0.2454  0.3892   0.8202  0.1621  0.0449  0.0160
+2026-09-29 12:02:00,924 
+=== Optimism = reported - actual [kaggle] ===
+                                          optimism_accuracy  optimism_recall  optimism_precision  optimism_specificity  optimism_f1  optimism_f2  optimism_roc_auc  optimism_pr_auc  optimism_brier  optimism_ece
+pipeline                                                                                                                                                                                                         
+C1: t=0.5, no calibration                           -0.0015           0.0025             -0.0282               -0.0017      -0.0015       0.0016           -0.0076          -0.0065          0.0003       -0.0002
+C2: C1 + threshold tuned on test                     0.0048           0.0585              0.0362                0.0020       0.0463       0.0535           -0.0076          -0.0065          0.0003       -0.0002
+C3: SMOTE before split, t=0.5                        0.0363           0.8340              0.8175               -0.0016       0.8274       0.8316            0.2082           0.8615         -0.0297       -0.0402
+C4: C3 + threshold tuned on test                     0.0365           0.8522              0.8308                0.0023       0.8466       0.8507            0.2082           0.8615         -0.0297       -0.0402
+C5 (control): SMOTE on train only, t=0.5            -0.0016           0.0035             -0.0018               -0.0018       0.0008       0.0024            0.0010           0.0005          0.0009        0.0018
+2026-09-29 12:02:00,925 ===== run end =====
+2026-09-29 12:02:04,914 Kaggle/DataPort: 5,110 rows, prevalence 0.0487
+2026-09-29 12:03:20,030 BRFSS 2023: 431,849 rows, 55 features, prevalence 0.0425
+2026-09-29 16:23:32,605 BRFSS 2023: 431,849 rows, 55 features, prevalence 0.0425
+2026-09-29 17:41:26,807 BRFSS 2023: 431,849 rows, 55 features, prevalence 0.0425
+2026-09-29 17:44:16,296 Kaggle/DataPort: 5,110 rows, prevalence 0.0487
