@@ -1,4 +1,5 @@
 """Write LaTeX tables for the supplementary material directly from the analysis CSVs."""
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 import pandas as pd
@@ -23,7 +24,10 @@ def tex(x):
 
 
 def f(x, d=3):
-    return "--" if pd.isna(x) else f"{x:.{d}f}"
+    # round half up from the exact value, so a mean such as 0.4275 prints as 0.428
+    if pd.isna(x):
+        return "--"
+    return str(Decimal(repr(round(float(x), 9))).quantize(Decimal(1).scaleb(-d), rounding=ROUND_HALF_UP))
 
 
 out = []
@@ -106,7 +110,9 @@ Seed & Set & $n$ & ROC-AUC & PR-AUC & Brier & ECE & Threshold & Sens. & PPV & F$
 # S5 Experiment 2 full
 blocks = []
 for ds, label in (("brfss2023", "BRFSS 2023 (5 splits)"), ("kaggle", "Kaggle (20 splits)")):
-    s = pd.read_csv(R / f"exp2_{ds}_summary.csv")
+    s = pd.read_csv(R / f"exp2_{ds}_summary.csv")[["pipeline", "kind"]]
+    s = s.merge(pd.read_csv(R / f"exp2_{ds}_per_seed.csv").groupby(["pipeline", "kind"], as_index=False)
+                .mean(numeric_only=True), on=["pipeline", "kind"])
     blocks.append(f"\\midrule\\multicolumn{{11}}{{l}}{{\\textit{{{label}}}}} \\\\")
     for _, r in s.iterrows():
         blocks.append(f"{tex(r.pipeline)} & {r.kind} & {f(r.prevalence)} & {f(r.accuracy)} & {f(r.recall)} & "

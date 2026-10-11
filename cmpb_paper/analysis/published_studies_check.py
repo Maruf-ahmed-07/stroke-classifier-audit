@@ -60,15 +60,15 @@ ROWS = [
     dict(study="Sutcu et al. 2025, Stroke Res Treat", doi="10.1155/srat/2892726", group="training-only or none",
          order="Text: no rebalancing; stratified 70/30 split",
          test_stroke=None, test_n=None, headline="Naive Bayes (best)", headline_sens=0.404,
-         others="Other models 0.011-0.213", s=S_KAGGLE, source="Table 7"),
+         others="0.011--0.213", s=S_KAGGLE, source="Table 7"),
     dict(study="Kokkotis et al. 2022, Diagnostics", doi="10.3390/diagnostics12102392", group="training-only or none",
          order="Text: random under-sampling within each training fold (nested 10-fold CV)",
          test_stroke=None, test_n=None, headline="MLP (best)", headline_sens=0.814,
-         others="Different Kaggle dataset (43,400 records, 783 strokes)", s=S_CEREBRAL, source="Table 3"),
+         others="Different Kaggle dataset (43,400 records, 783 strokes)", note_label="Note", s=S_CEREBRAL, source="Table 3"),
     dict(study="El-Geneedy et al. 2025, Sci Rep (retracted)", doi="10.1038/s41598-025-11263-9", group="training-only or none",
          order="Text: resampling 'only used in the training datasets in each cross-validation iteration'",
          test_stroke=None, test_n=None, headline="DNN (best test recall)", headline_sens=0.72,
-         others="Other models 0.04-0.64 (training recall 0.92-0.98)", s=S_KAGGLE, source="Table 7"),
+         others="0.04--0.64 (training recall 0.92--0.98)", s=S_KAGGLE, source="Table 7"),
 ]
 
 NOT_ASSESSABLE = [
@@ -111,7 +111,7 @@ def main():
             rows.append(f"{tex(r.study)} & {tex(r.order)} & {comp} & {tex(r.headline)}: {r.headline_sens:.3f} & {r.s:.3f} & "
                         f"{'yes' if r['signature_B_sens_ge_s_minus_0.03'] else 'no'} \\\\")
             if r.others:
-                rows.append(f" & \\multicolumn{{5}}{{p{{12.9cm}}}}{{\\footnotesize Other models: {tex(r.others)}. Source: {tex(r.source)}; doi:{r.doi}.}} \\\\")
+                rows.append(f" & \\multicolumn{{5}}{{p{{12.9cm}}}}{{\\footnotesize {r.note_label if isinstance(r.get('note_label'), str) else 'Other models'}: {tex(r.others)}. Source: {tex(r.source)}; doi:{r.doi}.}} \\\\")
             else:
                 rows.append(f" & \\multicolumn{{5}}{{p{{12.9cm}}}}{{\\footnotesize Source: {tex(r.source)}; doi:{r.doi}.}} \\\\")
     na = "; ".join(f"{tex(a)} (doi:{b}): {tex(c)}" for a, b, c in NOT_ASSESSABLE)

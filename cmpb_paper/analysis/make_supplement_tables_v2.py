@@ -1,6 +1,7 @@
 """Supplementary tables from the outputs of run_v2_analyses.py, the NHIS script and the
 robustness scripts.
 """
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 import pandas as pd
@@ -17,13 +18,16 @@ def tex(x):
 
 
 def f(x, d=3):
-    return "--" if pd.isna(x) else f"{x:.{d}f}"
+    # round half up from the exact value, so a mean such as 0.4275 prints as 0.428
+    if pd.isna(x):
+        return "--"
+    return str(Decimal(repr(round(float(x), 9))).quantize(Decimal(1).scaleb(-d), rounding=ROUND_HALF_UP))
 
 
 v2 = []
 # flexible calibration
 fc = pd.read_csv(A / "v2_flexible_calibration.csv")
-rows = [f"{r.model} & {r.measure.upper()} & {f(r.estimate, 4)} & {f(r.lo, 4)}--{f(r.hi, 4)} \\\\" for _, r in fc.iterrows()]
+rows = [f"{r.model} & {r.measure.upper().replace("EMAX", "Emax")} & {f(r.estimate, 4)} & {f(r.lo, 4)}--{f(r.hi, 4)} \\\\" for _, r in fc.iterrows()]
 v2.append(r"""\begin{table}[h]\centering\footnotesize
 \caption{Flexible calibration: logistic regression of the outcome on a cubic spline of the logit of predicted risk (knots at the 5th, 27.5th, 50th, 72.5th and 95th percentiles). ICI, mean absolute difference between the flexible curve and the predicted risk; E50 and E90, its median and 90th percentile; Emax, its maximum. 95\% CIs from 200 bootstrap resamples. The 2024 model uses the 35 predictors common to both years and was fitted on 2023 data only. ICI, integrated calibration index.}\label{tab:flex}
 \begin{tabular}{llrl}\toprule Model and data & Measure & Estimate & 95\% CI \\ \midrule
@@ -89,7 +93,8 @@ v2.append(r"""{\scriptsize\setlength{\tabcolsep}{3pt}\begin{longtable}{lrrrlrrrr
 """ + "\n".join(rows) + "\n\\bottomrule\\end{longtable}}\n")
 
 # synthetic-share identity
-ide = pd.read_csv(R / "identity_summary.csv")
+ide = (pd.read_csv(R / "identity_per_run.csv").groupby(["dataset", "variant", "classifier"], as_index=False)
+       .mean(numeric_only=True))
 DS = {"brfss2023": "BRFSS 2023 (3 splits)", "kaggle": "Kaggle (20 splits)"}
 rows, last = [], None
 for _, r in ide.sort_values(["dataset", "variant", "classifier"]).iterrows():
@@ -117,7 +122,9 @@ v2.append(r"""\begin{table}[h]\centering\footnotesize
 Data & Synthetic positives & Real positives & Positives & Negatives \\ \midrule
 """ + "\n".join(rows) + "\n\\bottomrule\\end{tabular}\\end{table}\n")
 
-gen = pd.read_csv(R / "identity_generalisation_summary.csv")
+keys = ["oversampler", "prevalence", "alpha"]
+gen = pd.read_csv(R / "identity_generalisation_summary.csv")[keys].merge(
+    pd.read_csv(R / "identity_generalisation.csv").groupby(keys, as_index=False).mean(numeric_only=True), on=keys)
 gen["a_est"] = (gen.reported_sensitivity - gen.s_counts) / (1 - gen.s_counts)
 rows, last = [], None
 for _, r in gen.iterrows():
